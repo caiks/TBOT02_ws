@@ -1,1078 +1,256 @@
 model: model044
 dataset: data009
-induceThreshold: 1000
+induceThreshold: 7000
 hr->size: 172301
 ur->listVarSizePair.size(): 366
-model044	induce copy	slice: 0	slice size: 172301	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65536	time 0.0633093s
+model044	induce copy	slice: 0	slice size: 172301	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65536	time 0.0831395s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 172301
 model044	induce model	der vars algn density: 59404.8	impl bi-valency percent: 41.167	der vars cardinality: 2	fud cardinality: 2
-model044	induce model	time 1.27048s
-model044	induce update	slice: 0	parent slice: 0	children cardinality: 9	children slices: [131072,131073,131074,131075,131076,131077,131078,131079,131080]	fud size: 11	fud cardinality: 1	model cardinality: 11	time 0.0532s
-model044	induce copy	slice: 131072	slice size: 67652	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65538	time 0.0212278s
+model044	induce model	time 1.89562s
+model044	induce update	slice: 0	parent slice: 0	children cardinality: 9	fud size: 11	fud cardinality: 1	model cardinality: 11	time 0.0759552s
+model044	induce copy	slice: 131072	slice size: 67652	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65538	time 0.0303059s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 67652
 model044	induce model	der vars algn density: 21700.9	impl bi-valency percent: 37.8191	der vars cardinality: 2	fud cardinality: 3
-model044	induce model	time 0.712275s
-model044	induce update	slice: 131072	parent slice: 0	children cardinality: 8	children slices: [131081,131082,131083,131084,131085,131086,131087,131088]	fud size: 11	fud cardinality: 2	model cardinality: 22	time 0.019315s
-model044	induce copy	slice: 131076	slice size: 60569	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65541	time 0.0178649s
+model044	induce model	time 0.920927s
+model044	induce update	slice: 131072	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 2	model cardinality: 22	time 0.030499s
+model044	induce copy	slice: 131076	slice size: 60569	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65541	time 0.0208316s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 60569
 model044	induce model	der vars algn density: 37705.5	impl bi-valency percent: 36.5146	der vars cardinality: 3	fud cardinality: 8
-model044	induce model	time 1.0005s
-model044	induce update	slice: 131076	parent slice: 0	children cardinality: 8	children slices: [131089,131090,131091,131092,131093,131094,131095,131096]	fud size: 16	fud cardinality: 3	model cardinality: 38	time 0.0209935s
-model044	induce copy	slice: 131080	slice size: 42802	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65549	time 0.0136486s
+model044	induce model	time 1.11015s
+model044	induce update	slice: 131076	parent slice: 0	children cardinality: 8	fud size: 16	fud cardinality: 3	model cardinality: 38	time 0.0278341s
+model044	induce copy	slice: 131080	slice size: 42802	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65549	time 0.0130649s
 model044	induce model	repa dimension: 58	sparse dimension: 0
 model044	induce model	dimension: 58	size: 42802
 model044	induce model	der vars algn density: 26427.6	impl bi-valency percent: 36.168	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.307116s
-model044	induce update	slice: 131080	parent slice: 0	children cardinality: 8	children slices: [131097,131098,131099,131100,131101,131102,131103,131104]	fud size: 11	fud cardinality: 4	model cardinality: 49	time 0.0111755s
-model044	induce copy	slice: 131089	slice size: 29490	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65552	time 0.008469s
+model044	induce model	time 0.342693s
+model044	induce update	slice: 131080	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 4	model cardinality: 49	time 0.0179144s
+model044	induce copy	slice: 131089	slice size: 29490	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65552	time 0.010236s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 29490
 model044	induce model	der vars algn density: 17719.9	impl bi-valency percent: 35.0451	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.255991s
-model044	induce update	slice: 131089	parent slice: 131076	children cardinality: 8	children slices: [131105,131106,131107,131108,131109,131110,131111,131112]	fud size: 11	fud cardinality: 5	model cardinality: 60	time 0.011025s
-model044	induce copy	slice: 131096	slice size: 29453	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65555	time 0.0077366s
+model044	induce model	time 0.288903s
+model044	induce update	slice: 131089	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 5	model cardinality: 60	time 0.0132502s
+model044	induce copy	slice: 131096	slice size: 29453	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65555	time 0.0090758s
 model044	induce model	repa dimension: 59	sparse dimension: 0
 model044	induce model	dimension: 59	size: 29453
 model044	induce model	der vars algn density: 18543.3	impl bi-valency percent: 36.9977	der vars cardinality: 3	fud cardinality: 6
-model044	induce model	time 1.18702s
-model044	induce update	slice: 131096	parent slice: 131076	children cardinality: 8	children slices: [131113,131114,131115,131116,131117,131118,131119,131120]	fud size: 14	fud cardinality: 6	model cardinality: 74	time 0.0149202s
-model044	induce copy	slice: 131086	slice size: 26813	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65561	time 0.0083712s
+model044	induce model	time 1.42177s
+model044	induce update	slice: 131096	parent slice: 0	children cardinality: 8	fud size: 14	fud cardinality: 6	model cardinality: 74	time 0.0140639s
+model044	induce copy	slice: 131086	slice size: 26813	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65561	time 0.0099809s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 26813
 model044	induce model	der vars algn density: 9625.66	impl bi-valency percent: 43.1886	der vars cardinality: 2	fud cardinality: 14
-model044	induce model	time 1.00277s
-model044	induce update	slice: 131086	parent slice: 131072	children cardinality: 9	children slices: [131121,131122,131123,131124,131125,131126,131127,131128,131129]	fud size: 23	fud cardinality: 7	model cardinality: 97	time 0.0140005s
-model044	induce copy	slice: 131085	slice size: 22671	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65575	time 0.0081752s
+model044	induce model	time 1.07606s
+model044	induce update	slice: 131086	parent slice: 0	children cardinality: 9	fud size: 23	fud cardinality: 7	model cardinality: 97	time 0.0134419s
+model044	induce copy	slice: 131085	slice size: 22671	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65575	time 0.0068948s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 22671
 model044	induce model	der vars algn density: 7606.15	impl bi-valency percent: 39.8641	der vars cardinality: 2	fud cardinality: 19
-model044	induce model	time 1.38341s
-model044	induce update	slice: 131085	parent slice: 131072	children cardinality: 9	children slices: [131130,131131,131132,131133,131134,131135,131136,131137,131138]	fud size: 28	fud cardinality: 8	model cardinality: 125	time 0.010257s
-model044	induce copy	slice: 131097	slice size: 21544	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65594	time 0.0061602s
+model044	induce model	time 1.59088s
+model044	induce update	slice: 131085	parent slice: 0	children cardinality: 9	fud size: 28	fud cardinality: 8	model cardinality: 125	time 0.0135755s
+model044	induce copy	slice: 131097	slice size: 21544	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65594	time 0.0076213s
 model044	induce model	repa dimension: 58	sparse dimension: 0
 model044	induce model	dimension: 58	size: 21544
 model044	induce model	der vars algn density: 6699.74	impl bi-valency percent: 36.4761	der vars cardinality: 2	fud cardinality: 5
-model044	induce model	time 0.271503s
-model044	induce update	slice: 131097	parent slice: 131080	children cardinality: 8	children slices: [131139,131140,131141,131142,131143,131144,131145,131146]	fud size: 13	fud cardinality: 9	model cardinality: 138	time 0.0101893s
-model044	induce copy	slice: 131104	slice size: 20011	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65599	time 0.0056814s
+model044	induce model	time 0.323838s
+model044	induce update	slice: 131097	parent slice: 0	children cardinality: 8	fud size: 13	fud cardinality: 9	model cardinality: 138	time 0.0098623s
+model044	induce copy	slice: 131104	slice size: 20011	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65599	time 0.0056298s
 model044	induce model	repa dimension: 55	sparse dimension: 0
 model044	induce model	dimension: 55	size: 20011
 model044	induce model	der vars algn density: 12107.8	impl bi-valency percent: 35.3276	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.151485s
-model044	induce update	slice: 131104	parent slice: 131080	children cardinality: 8	children slices: [131147,131148,131149,131150,131151,131152,131153,131154]	fud size: 11	fud cardinality: 10	model cardinality: 149	time 0.0069544s
-model044	induce copy	slice: 131081	slice size: 16357	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65602	time 0.0049619s
+model044	induce model	time 0.172575s
+model044	induce update	slice: 131104	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 10	model cardinality: 149	time 0.0084496s
+model044	induce copy	slice: 131081	slice size: 16357	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65602	time 0.0051146s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 16357
 model044	induce model	der vars algn density: 5225	impl bi-valency percent: 37.635	der vars cardinality: 2	fud cardinality: 5
-model044	induce model	time 0.622513s
-model044	induce update	slice: 131081	parent slice: 131072	children cardinality: 9	children slices: [131155,131156,131157,131158,131159,131160,131161,131162,131163]	fud size: 14	fud cardinality: 11	model cardinality: 163	time 0.0065665s
-model044	induce copy	slice: 131119	slice size: 15708	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65607	time 0.0046544s
+model044	induce model	time 0.731063s
+model044	induce update	slice: 131081	parent slice: 0	children cardinality: 9	fud size: 14	fud cardinality: 11	model cardinality: 163	time 0.0076589s
+model044	induce copy	slice: 131119	slice size: 15708	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65607	time 0.0050868s
 model044	induce model	repa dimension: 56	sparse dimension: 0
 model044	induce model	dimension: 56	size: 15708
 model044	induce model	der vars algn density: 3336.23	impl bi-valency percent: 11.2039	der vars cardinality: 3	fud cardinality: 18
-model044	induce model	time 1.25189s
-model044	induce update	slice: 131119	parent slice: 131096	children cardinality: 8	children slices: [131164,131165,131166,131167,131168,131169,131170,131171]	fud size: 26	fud cardinality: 12	model cardinality: 189	time 0.0074349s
-model044	induce copy	slice: 131112	slice size: 14719	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65625	time 0.0046734s
+model044	induce model	time 1.52112s
+model044	induce update	slice: 131119	parent slice: 0	children cardinality: 8	fud size: 26	fud cardinality: 12	model cardinality: 189	time 0.0103404s
+model044	induce copy	slice: 131112	slice size: 14719	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65625	time 0.0053551s
 model044	induce model	repa dimension: 57	sparse dimension: 0
 model044	induce model	dimension: 57	size: 14719
 model044	induce model	der vars algn density: 5303.29	impl bi-valency percent: 43.3763	der vars cardinality: 2	fud cardinality: 25
-model044	induce model	time 0.745954s
-model044	induce update	slice: 131112	parent slice: 131089	children cardinality: 7	children slices: [131172,131173,131174,131175,131176,131177,131178]	fud size: 32	fud cardinality: 13	model cardinality: 221	time 0.0077662s
-model044	induce copy	slice: 131171	slice size: 14427	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65650	time 0.0043911s
+model044	induce model	time 1.1541s
+model044	induce update	slice: 131112	parent slice: 0	children cardinality: 7	fud size: 32	fud cardinality: 13	model cardinality: 221	time 0.0113324s
+model044	induce copy	slice: 131171	slice size: 14427	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65650	time 0.0060658s
 model044	induce model	repa dimension: 50	sparse dimension: 0
 model044	induce model	dimension: 50	size: 14427
 model044	induce model	der vars algn density: 2759.91	impl bi-valency percent: 10.0375	der vars cardinality: 3	fud cardinality: 43
-model044	induce model	time 3.52728s
-model044	induce update	slice: 131171	parent slice: 131119	children cardinality: 8	children slices: [131179,131180,131181,131182,131183,131184,131185,131186]	fud size: 51	fud cardinality: 14	model cardinality: 272	time 0.0080551s
-model044	induce copy	slice: 131105	slice size: 13666	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65693	time 0.004454s
+model044	induce model	time 4.86829s
+model044	induce update	slice: 131171	parent slice: 0	children cardinality: 8	fud size: 51	fud cardinality: 14	model cardinality: 272	time 0.011415s
+model044	induce copy	slice: 131105	slice size: 13666	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65693	time 0.006385s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 13666
 model044	induce model	der vars algn density: 7939.52	impl bi-valency percent: 33.7075	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.109057s
-model044	induce update	slice: 131105	parent slice: 131089	children cardinality: 8	children slices: [131187,131188,131189,131190,131191,131192,131193,131194]	fud size: 11	fud cardinality: 15	model cardinality: 283	time 0.0051815s
-model044	induce copy	slice: 131185	slice size: 13485	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65696	time 0.0039836s
+model044	induce model	time 0.153339s
+model044	induce update	slice: 131105	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 15	model cardinality: 283	time 0.0069075s
+model044	induce copy	slice: 131185	slice size: 13485	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65696	time 0.0053262s
 model044	induce model	repa dimension: 45	sparse dimension: 0
 model044	induce model	dimension: 45	size: 13485
 model044	induce model	der vars algn density: 1104.33	impl bi-valency percent: 4.17963	der vars cardinality: 3	fud cardinality: 31
-model044	induce model	time 3.31682s
-model044	induce update	slice: 131185	parent slice: 131171	children cardinality: 8	children slices: [131195,131196,131197,131198,131199,131200,131201,131202]	fud size: 39	fud cardinality: 16	model cardinality: 322	time 0.0076361s
-model044	induce copy	slice: 131113	slice size: 13332	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65727	time 0.0042693s
+model044	induce model	time 3.7444s
+model044	induce update	slice: 131185	parent slice: 0	children cardinality: 8	fud size: 39	fud cardinality: 16	model cardinality: 322	time 0.009012s
+model044	induce copy	slice: 131113	slice size: 13332	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65727	time 0.0040465s
 model044	induce model	repa dimension: 59	sparse dimension: 0
 model044	induce model	dimension: 59	size: 13332
 model044	induce model	der vars algn density: 5754.96	impl bi-valency percent: 24.0895	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.105134s
-model044	induce update	slice: 131113	parent slice: 131096	children cardinality: 8	children slices: [131203,131204,131205,131206,131207,131208,131209,131210]	fud size: 11	fud cardinality: 17	model cardinality: 333	time 0.0055125s
-model044	induce copy	slice: 131202	slice size: 12739	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65730	time 0.0038516s
+model044	induce model	time 0.112928s
+model044	induce update	slice: 131113	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 17	model cardinality: 333	time 0.0062641s
+model044	induce copy	slice: 131202	slice size: 12739	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65730	time 0.004032s
 model044	induce model	repa dimension: 36	sparse dimension: 0
 model044	induce model	dimension: 36	size: 12739
 model044	induce model	der vars algn density: 277.232	impl bi-valency percent: 1.09406	der vars cardinality: 3	fud cardinality: 9
-model044	induce model	time 0.262798s
-model044	induce update	slice: 131202	parent slice: 131185	children cardinality: 8	children slices: [131211,131212,131213,131214,131215,131216,131217,131218]	fud size: 17	fud cardinality: 18	model cardinality: 350	time 0.0056241s
-model044	induce copy	slice: 131218	slice size: 12623	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65739	time 0.003942s
+model044	induce model	time 0.316468s
+model044	induce update	slice: 131202	parent slice: 0	children cardinality: 8	fud size: 17	fud cardinality: 18	model cardinality: 350	time 0.0061168s
+model044	induce copy	slice: 131218	slice size: 12623	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65739	time 0.0039391s
 model044	induce model	repa dimension: 32	sparse dimension: 0
 model044	induce model	dimension: 32	size: 12623
 model044	induce model	der vars algn density: 205.484	impl bi-valency percent: 0.81725	der vars cardinality: 3	fud cardinality: 8
-model044	induce model	time 0.28239s
-model044	induce update	slice: 131218	parent slice: 131202	children cardinality: 8	children slices: [131219,131220,131221,131222,131223,131224,131225,131226]	fud size: 16	fud cardinality: 19	model cardinality: 366	time 0.0053813s
-model044	induce copy	slice: 131225	slice size: 12539	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65747	time 0.0037643s
+model044	induce model	time 0.334028s
+model044	induce update	slice: 131218	parent slice: 0	children cardinality: 8	fud size: 16	fud cardinality: 19	model cardinality: 366	time 0.0057203s
+model044	induce copy	slice: 131225	slice size: 12539	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65747	time 0.0040095s
 model044	induce model	repa dimension: 25	sparse dimension: 0
 model044	induce model	dimension: 25	size: 12539
 model044	induce model	der vars algn density: 23.3961	impl bi-valency percent: 0.186761	der vars cardinality: 2	fud cardinality: 32
-model044	induce model	time 1.57856s
-model044	induce update	slice: 131225	parent slice: 131218	children cardinality: 6	children slices: [131227,131228,131229,131230,131231,131232]	fud size: 38	fud cardinality: 20	model cardinality: 404	time 0.0065444s
-model044	induce copy	slice: 131232	slice size: 12229	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65779	time 0.0032037s
+model044	induce model	time 1.81866s
+model044	induce update	slice: 131225	parent slice: 0	children cardinality: 6	fud size: 38	fud cardinality: 20	model cardinality: 404	time 0.0076792s
+model044	induce copy	slice: 131232	slice size: 12229	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65779	time 0.0046198s
 model044	induce model	repa dimension: 16	sparse dimension: 0
 model044	induce model	dimension: 16	size: 12229
 model044	induce model	der vars algn density: 18.3119	impl bi-valency percent: 0.0748988	der vars cardinality: 3	fud cardinality: 15
-model044	induce model	time 0.507297s
-model044	induce update	slice: 131232	parent slice: 131225	children cardinality: 7	children slices: [131233,131234,131235,131236,131237,131238,131239]	fud size: 22	fud cardinality: 21	model cardinality: 426	time 0.0049852s
-model044	induce copy	slice: 131238	slice size: 12217	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65794	time 0.003016s
+model044	induce model	time 0.586349s
+model044	induce update	slice: 131232	parent slice: 0	children cardinality: 7	fud size: 22	fud cardinality: 21	model cardinality: 426	time 0.0058468s
+model044	induce copy	slice: 131238	slice size: 12217	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65794	time 0.0042264s
 model044	induce model	repa dimension: 12	sparse dimension: 0
 model044	induce model	dimension: 12	size: 12217
 model044	induce model	no alignment
-model044	induce model	time 0.0104249s
-model044	induce update fail	slice: 131238	slice size: 12217	time 2e-06s
-model044	induce copy	slice: 131147	slice size: 9856	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65794	time 0.0024381s
+model044	induce model	time 0.0127747s
+model044	induce update fail	slice: 131238	slice size: 12217	time 2.2e-06s
+model044	induce copy	slice: 131147	slice size: 9856	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65794	time 0.0029286s
 model044	induce model	repa dimension: 55	sparse dimension: 0
 model044	induce model	dimension: 55	size: 9856
 model044	induce model	der vars algn density: 6367.05	impl bi-valency percent: 38.1271	der vars cardinality: 3	fud cardinality: 20
-model044	induce model	time 0.495522s
-model044	induce update	slice: 131147	parent slice: 131104	children cardinality: 8	children slices: [131240,131241,131242,131243,131244,131245,131246,131247]	fud size: 28	fud cardinality: 22	model cardinality: 454	time 0.0051764s
-model044	induce copy	slice: 131135	slice size: 9507	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65814	time 0.0027488s
+model044	induce model	time 0.580008s
+model044	induce update	slice: 131147	parent slice: 0	children cardinality: 8	fud size: 28	fud cardinality: 22	model cardinality: 454	time 0.0060449s
+model044	induce copy	slice: 131135	slice size: 9507	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65814	time 0.0034595s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 9507
 model044	induce model	der vars algn density: 3426.34	impl bi-valency percent: 43.3905	der vars cardinality: 2	fud cardinality: 30
-model044	induce model	time 0.768713s
-model044	induce update	slice: 131135	parent slice: 131085	children cardinality: 7	children slices: [131248,131249,131250,131251,131252,131253,131254]	fud size: 37	fud cardinality: 23	model cardinality: 491	time 0.0061871s
-model044	induce copy	slice: 131154	slice size: 9421	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65844	time 0.0030051s
+model044	induce model	time 0.929843s
+model044	induce update	slice: 131135	parent slice: 0	children cardinality: 7	fud size: 37	fud cardinality: 23	model cardinality: 491	time 0.006794s
+model044	induce copy	slice: 131154	slice size: 9421	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65844	time 0.0026706s
 model044	induce model	repa dimension: 52	sparse dimension: 0
 model044	induce model	dimension: 52	size: 9421
 model044	induce model	der vars algn density: 3426.06	impl bi-valency percent: 19.9411	der vars cardinality: 3	fud cardinality: 9
-model044	induce model	time 0.25697s
-model044	induce update	slice: 131154	parent slice: 131104	children cardinality: 8	children slices: [131255,131256,131257,131258,131259,131260,131261,131262]	fud size: 17	fud cardinality: 24	model cardinality: 508	time 0.0043497s
-model044	induce copy	slice: 131124	slice size: 9115	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65853	time 0.0028037s
+model044	induce model	time 0.287095s
+model044	induce update	slice: 131154	parent slice: 0	children cardinality: 8	fud size: 17	fud cardinality: 24	model cardinality: 508	time 0.004571s
+model044	induce copy	slice: 131124	slice size: 9115	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65853	time 0.0026101s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 9115
 model044	induce model	der vars algn density: 3082.66	impl bi-valency percent: 40.2416	der vars cardinality: 2	fud cardinality: 32
-model044	induce model	time 0.912385s
-model044	induce update	slice: 131124	parent slice: 131086	children cardinality: 9	children slices: [131263,131264,131265,131266,131267,131268,131269,131270,131271]	fud size: 41	fud cardinality: 25	model cardinality: 549	time 0.0061649s
-model044	induce copy	slice: 131121	slice size: 9100	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65885	time 0.0026913s
+model044	induce model	time 1.0699s
+model044	induce update	slice: 131124	parent slice: 0	children cardinality: 9	fud size: 41	fud cardinality: 25	model cardinality: 549	time 0.0070746s
+model044	induce copy	slice: 131121	slice size: 9100	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65885	time 0.0028536s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 9100
 model044	induce model	der vars algn density: 5779.59	impl bi-valency percent: 37.3772	der vars cardinality: 3	fud cardinality: 16
-model044	induce model	time 0.395965s
-model044	induce update	slice: 131121	parent slice: 131086	children cardinality: 8	children slices: [131272,131273,131274,131275,131276,131277,131278,131279]	fud size: 24	fud cardinality: 26	model cardinality: 573	time 0.0047516s
-model044	induce copy	slice: 131143	slice size: 9090	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65901	time 0.0022769s
+model044	induce model	time 0.486554s
+model044	induce update	slice: 131121	parent slice: 0	children cardinality: 8	fud size: 24	fud cardinality: 26	model cardinality: 573	time 0.0064092s
+model044	induce copy	slice: 131143	slice size: 9090	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65901	time 0.0025719s
 model044	induce model	repa dimension: 58	sparse dimension: 0
 model044	induce model	dimension: 58	size: 9090
 model044	induce model	der vars algn density: 2829.01	impl bi-valency percent: 36.5093	der vars cardinality: 2	fud cardinality: 6
-model044	induce model	time 0.132517s
-model044	induce update	slice: 131143	parent slice: 131097	children cardinality: 8	children slices: [131280,131281,131282,131283,131284,131285,131286,131287]	fud size: 14	fud cardinality: 27	model cardinality: 587	time 0.0042744s
-model044	induce copy	slice: 131137	slice size: 8945	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65907	time 0.0029236s
+model044	induce model	time 0.155907s
+model044	induce update	slice: 131143	parent slice: 0	children cardinality: 8	fud size: 14	fud cardinality: 27	model cardinality: 587	time 0.0047255s
+model044	induce copy	slice: 131137	slice size: 8945	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65907	time 0.003075s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 8945
 model044	induce model	der vars algn density: 5317.72	impl bi-valency percent: 34.6146	der vars cardinality: 3	fud cardinality: 5
-model044	induce model	time 0.362811s
-model044	induce update	slice: 131137	parent slice: 131085	children cardinality: 8	children slices: [131288,131289,131290,131291,131292,131293,131294,131295]	fud size: 13	fud cardinality: 28	model cardinality: 600	time 0.0053436s
-model044	induce copy	slice: 131128	slice size: 8556	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65912	time 0.0030817s
+model044	induce model	time 0.448473s
+model044	induce update	slice: 131137	parent slice: 0	children cardinality: 8	fud size: 13	fud cardinality: 28	model cardinality: 600	time 0.0051749s
+model044	induce copy	slice: 131128	slice size: 8556	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65912	time 0.0026642s
 model044	induce model	repa dimension: 60	sparse dimension: 0
 model044	induce model	dimension: 60	size: 8556
 model044	induce model	der vars algn density: 2770.82	impl bi-valency percent: 38.2434	der vars cardinality: 2	fud cardinality: 3
-model044	induce model	time 0.138011s
-model044	induce update	slice: 131128	parent slice: 131086	children cardinality: 9	children slices: [131296,131297,131298,131299,131300,131301,131302,131303,131304]	fud size: 12	fud cardinality: 29	model cardinality: 612	time 0.0037839s
-model044	induce copy	slice: 131262	slice size: 7575	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65915	time 0.0035408s
+model044	induce model	time 0.172192s
+model044	induce update	slice: 131128	parent slice: 0	children cardinality: 9	fud size: 12	fud cardinality: 29	model cardinality: 612	time 0.0049792s
+model044	induce copy	slice: 131262	slice size: 7575	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65915	time 0.0023698s
 model044	induce model	repa dimension: 46	sparse dimension: 0
 model044	induce model	dimension: 46	size: 7575
 model044	induce model	der vars algn density: 1127.6	impl bi-valency percent: 7.72692	der vars cardinality: 3	fud cardinality: 13
-model044	induce model	time 0.360852s
-model044	induce update	slice: 131262	parent slice: 131154	children cardinality: 8	children slices: [131305,131306,131307,131308,131309,131310,131311,131312]	fud size: 21	fud cardinality: 30	model cardinality: 633	time 0.0036892s
-model044	induce copy	slice: 131145	slice size: 7513	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65928	time 0.002231s
+model044	induce model	time 0.498229s
+model044	induce update	slice: 131262	parent slice: 0	children cardinality: 8	fud size: 21	fud cardinality: 30	model cardinality: 633	time 0.0048293s
+model044	induce copy	slice: 131145	slice size: 7513	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65928	time 0.0028601s
 model044	induce model	repa dimension: 55	sparse dimension: 0
 model044	induce model	dimension: 55	size: 7513
 model044	induce model	der vars algn density: 2242.73	impl bi-valency percent: 34.7853	der vars cardinality: 2	fud cardinality: 3
-model044	induce model	time 0.109046s
-model044	induce update	slice: 131145	parent slice: 131097	children cardinality: 9	children slices: [131313,131314,131315,131316,131317,131318,131319,131320,131321]	fud size: 12	fud cardinality: 31	model cardinality: 645	time 0.0039267s
-model044	induce copy	slice: 131311	slice size: 7235	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65931	time 0.0019091s
+model044	induce model	time 0.14261s
+model044	induce update	slice: 131145	parent slice: 0	children cardinality: 9	fud size: 12	fud cardinality: 31	model cardinality: 645	time 0.0039844s
+model044	induce copy	slice: 131311	slice size: 7235	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65931	time 0.0025856s
 model044	induce model	repa dimension: 36	sparse dimension: 0
 model044	induce model	dimension: 36	size: 7235
 model044	induce model	der vars algn density: 624.495	impl bi-valency percent: 4.41027	der vars cardinality: 3	fud cardinality: 15
-model044	induce model	time 0.420785s
-model044	induce update	slice: 131311	parent slice: 131262	children cardinality: 8	children slices: [131322,131323,131324,131325,131326,131327,131328,131329]	fud size: 23	fud cardinality: 32	model cardinality: 668	time 0.0035585s
-model044	induce copy	slice: 131207	slice size: 7177	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65946	time 0.0026819s
+model044	induce model	time 0.524679s
+model044	induce update	slice: 131311	parent slice: 0	children cardinality: 8	fud size: 23	fud cardinality: 32	model cardinality: 668	time 0.0041707s
+model044	induce copy	slice: 131207	slice size: 7177	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65946	time 0.002788s
 model044	induce model	repa dimension: 59	sparse dimension: 0
 model044	induce model	dimension: 59	size: 7177
 model044	induce model	der vars algn density: 4678.22	impl bi-valency percent: 38.5301	der vars cardinality: 3	fud cardinality: 22
-model044	induce model	time 0.848434s
-model044	induce update	slice: 131207	parent slice: 131113	children cardinality: 8	children slices: [131330,131331,131332,131333,131334,131335,131336,131337]	fud size: 30	fud cardinality: 33	model cardinality: 698	time 0.0052154s
-model044	induce copy	slice: 131329	slice size: 7060	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65968	time 0.0020078s
+model044	induce model	time 1.17238s
+model044	induce update	slice: 131207	parent slice: 0	children cardinality: 8	fud size: 30	fud cardinality: 33	model cardinality: 698	time 0.0055149s
+model044	induce copy	slice: 131329	slice size: 7060	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65968	time 0.0020126s
 model044	induce model	repa dimension: 25	sparse dimension: 0
 model044	induce model	dimension: 25	size: 7060
 model044	induce model	der vars algn density: 206.551	impl bi-valency percent: 1.47358	der vars cardinality: 3	fud cardinality: 9
-model044	induce model	time 0.312155s
-model044	induce update	slice: 131329	parent slice: 131311	children cardinality: 7	children slices: [131338,131339,131340,131341,131342,131343,131344]	fud size: 16	fud cardinality: 34	model cardinality: 714	time 0.0032536s
-model044	induce copy	slice: 131343	slice size: 7018	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65977	time 0.0014186s
+model044	induce model	time 0.371258s
+model044	induce update	slice: 131329	parent slice: 0	children cardinality: 7	fud size: 16	fud cardinality: 34	model cardinality: 714	time 0.0034987s
+model044	induce copy	slice: 131343	slice size: 7018	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65977	time 0.0015761s
 model044	induce model	repa dimension: 16	sparse dimension: 0
 model044	induce model	dimension: 16	size: 7018
 model044	induce model	der vars algn density: 41.8232	impl bi-valency percent: 0.298415	der vars cardinality: 3	fud cardinality: 11
-model044	induce model	time 0.187445s
-model044	induce update	slice: 131343	parent slice: 131329	children cardinality: 8	children slices: [131345,131346,131347,131348,131349,131350,131351,131352]	fud size: 19	fud cardinality: 35	model cardinality: 733	time 0.0027648s
-model044	induce copy	slice: 131348	slice size: 7004	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65988	time 0.0013901s
+model044	induce model	time 0.218795s
+model044	induce update	slice: 131343	parent slice: 0	children cardinality: 8	fud size: 19	fud cardinality: 35	model cardinality: 733	time 0.003426s
+model044	induce copy	slice: 131348	slice size: 7004	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65988	time 0.0014037s
 model044	induce model	repa dimension: 8	sparse dimension: 0
 model044	induce model	dimension: 8	size: 7004
 model044	induce model	der vars algn density: 7.61114	impl bi-valency percent: 0.054349	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0249662s
-model044	induce update	slice: 131348	parent slice: 131343	children cardinality: 6	children slices: [131353,131354,131355,131356,131357,131358]	fud size: 9	fud cardinality: 36	model cardinality: 742	time 0.0024253s
-model044	induce copy	slice: 131357	slice size: 7000	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65991	time 0.0015655s
+model044	induce model	time 0.0264595s
+model044	induce update	slice: 131348	parent slice: 0	children cardinality: 6	fud size: 9	fud cardinality: 36	model cardinality: 742	time 0.0026375s
+model044	induce copy	slice: 131357	slice size: 7000	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65991	time 0.0017292s
 model044	induce model	repa dimension: 5	sparse dimension: 0
 model044	induce model	dimension: 5	size: 7000
 model044	induce model	no alignment
-model044	induce model	time 0.0050965s
-model044	induce update fail	slice: 131357	slice size: 7000	time 3e-06s
-model044	induce copy	slice: 131187	slice size: 6900	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65991	time 0.0026927s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 6900
-model044	induce model	der vars algn density: 4307.97	impl bi-valency percent: 36.6389	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0629398s
-model044	induce update	slice: 131187	parent slice: 131105	children cardinality: 8	children slices: [131359,131360,131361,131362,131363,131364,131365,131366]	fud size: 11	fud cardinality: 37	model cardinality: 753	time 0.0039429s
-model044	induce copy	slice: 131155	slice size: 6141	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 65994	time 0.0020953s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 6141
-model044	induce model	der vars algn density: 2054.2	impl bi-valency percent: 39.725	der vars cardinality: 2	fud cardinality: 18
-model044	induce model	time 0.280203s
-model044	induce update	slice: 131155	parent slice: 131081	children cardinality: 8	children slices: [131367,131368,131369,131370,131371,131372,131373,131374]	fud size: 26	fud cardinality: 38	model cardinality: 779	time 0.0048095s
-model044	induce copy	slice: 131194	slice size: 6063	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66012	time 0.0019878s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 6063
-model044	induce model	der vars algn density: 1588.04	impl bi-valency percent: 29.9426	der vars cardinality: 2	fud cardinality: 2
-model044	induce model	time 0.0954026s
-model044	induce update	slice: 131194	parent slice: 131105	children cardinality: 9	children slices: [131375,131376,131377,131378,131379,131380,131381,131382,131383]	fud size: 11	fud cardinality: 39	model cardinality: 790	time 0.0032094s
-model044	induce copy	slice: 131160	slice size: 5781	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66014	time 0.0019044s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 5781
-model044	induce model	der vars algn density: 2014.36	impl bi-valency percent: 41.6862	der vars cardinality: 2	fud cardinality: 19
-model044	induce model	time 0.534548s
-model044	induce update	slice: 131160	parent slice: 131081	children cardinality: 7	children slices: [131384,131385,131386,131387,131388,131389,131390]	fud size: 26	fud cardinality: 40	model cardinality: 816	time 0.0042525s
-model044	induce copy	slice: 131174	slice size: 5581	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66033	time 0.0019489s
-model044	induce model	repa dimension: 57	sparse dimension: 0
-model044	induce model	dimension: 57	size: 5581
-model044	induce model	der vars algn density: 2229.94	impl bi-valency percent: 22.1134	der vars cardinality: 3	fud cardinality: 18
-model044	induce model	time 0.584646s
-model044	induce update	slice: 131174	parent slice: 131112	children cardinality: 8	children slices: [131391,131392,131393,131394,131395,131396,131397,131398]	fud size: 26	fud cardinality: 41	model cardinality: 842	time 0.0040601s
-model044	induce copy	slice: 131278	slice size: 5507	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66051	time 0.0017221s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 5507
-model044	induce model	der vars algn density: 1977.22	impl bi-valency percent: 43.1951	der vars cardinality: 2	fud cardinality: 26
-model044	induce model	time 0.393917s
-model044	induce update	slice: 131278	parent slice: 131121	children cardinality: 5	children slices: [131399,131400,131401,131402,131403]	fud size: 31	fud cardinality: 42	model cardinality: 873	time 0.0038993s
-model044	induce copy	slice: 131177	slice size: 5151	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66077	time 0.0016594s
-model044	induce model	repa dimension: 51	sparse dimension: 0
-model044	induce model	dimension: 51	size: 5151
-model044	induce model	der vars algn density: 3374.88	impl bi-valency percent: 38.7626	der vars cardinality: 3	fud cardinality: 23
-model044	induce model	time 0.526037s
-model044	induce update	slice: 131177	parent slice: 131112	children cardinality: 8	children slices: [131404,131405,131406,131407,131408,131409,131410,131411]	fud size: 31	fud cardinality: 43	model cardinality: 904	time 0.0041926s
-model044	induce copy	slice: 131246	slice size: 4875	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66100	time 0.0012377s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 4875
-model044	induce model	der vars algn density: 2418.81	impl bi-valency percent: 28.1566	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.044055s
-model044	induce update	slice: 131246	parent slice: 131147	children cardinality: 7	children slices: [131412,131413,131414,131415,131416,131417,131418]	fud size: 10	fud cardinality: 44	model cardinality: 914	time 0.0021646s
-model044	induce copy	slice: 131240	slice size: 4861	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66103	time 0.0012757s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 4861
-model044	induce model	der vars algn density: 1654.41	impl bi-valency percent: 40.5431	der vars cardinality: 2	fud cardinality: 2
-model044	induce model	time 0.0456783s
-model044	induce update	slice: 131240	parent slice: 131147	children cardinality: 6	children slices: [131419,131420,131421,131422,131423,131424]	fud size: 8	fud cardinality: 45	model cardinality: 922	time 0.0019945s
-model044	induce copy	slice: 131293	slice size: 4699	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66105	time 0.0014292s
-model044	induce model	repa dimension: 56	sparse dimension: 0
-model044	induce model	dimension: 56	size: 4699
-model044	induce model	der vars algn density: 2865.82	impl bi-valency percent: 35.6542	der vars cardinality: 3	fud cardinality: 24
-model044	induce model	time 1.36299s
-model044	induce update	slice: 131293	parent slice: 131137	children cardinality: 8	children slices: [131425,131426,131427,131428,131429,131430,131431,131432]	fud size: 32	fud cardinality: 46	model cardinality: 954	time 0.0036667s
-model044	induce copy	slice: 131139	slice size: 4316	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66129	time 0.0011275s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 4316
-model044	induce model	der vars algn density: 1881.42	impl bi-valency percent: 24.3535	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0582076s
-model044	induce update	slice: 131139	parent slice: 131097	children cardinality: 8	children slices: [131433,131434,131435,131436,131437,131438,131439,131440]	fud size: 11	fud cardinality: 47	model cardinality: 965	time 0.0021709s
-model044	induce copy	slice: 131398	slice size: 4286	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66132	time 0.0013019s
-model044	induce model	repa dimension: 48	sparse dimension: 0
-model044	induce model	dimension: 48	size: 4286
-model044	induce model	der vars algn density: 1672.38	impl bi-valency percent: 21.543	der vars cardinality: 3	fud cardinality: 19
-model044	induce model	time 0.467165s
-model044	induce update	slice: 131398	parent slice: 131174	children cardinality: 8	children slices: [131441,131442,131443,131444,131445,131446,131447,131448]	fud size: 27	fud cardinality: 48	model cardinality: 992	time 0.0035391s
-model044	induce copy	slice: 131206	slice size: 4224	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66151	time 0.0012675s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 4224
-model044	induce model	der vars algn density: 2102.18	impl bi-valency percent: 28.2534	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0447518s
-model044	induce update	slice: 131206	parent slice: 131113	children cardinality: 8	children slices: [131449,131450,131451,131452,131453,131454,131455,131456]	fud size: 11	fud cardinality: 49	model cardinality: 1003	time 0.0022755s
-model044	induce copy	slice: 131269	slice size: 4223	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66154	time 0.0011805s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 4223
-model044	induce model	der vars algn density: 1450.03	impl bi-valency percent: 40.9684	der vars cardinality: 2	fud cardinality: 19
-model044	induce model	time 0.194984s
-model044	induce update	slice: 131269	parent slice: 131124	children cardinality: 7	children slices: [131457,131458,131459,131460,131461,131462,131463]	fud size: 26	fud cardinality: 50	model cardinality: 1029	time 0.0031802s
-model044	induce copy	slice: 131130	slice size: 4118	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66173	time 0.0010937s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 4118
-model044	induce model	der vars algn density: 2482.57	impl bi-valency percent: 35.179	der vars cardinality: 3	fud cardinality: 5
-model044	induce model	time 0.115035s
-model044	induce update	slice: 131130	parent slice: 131085	children cardinality: 8	children slices: [131464,131465,131466,131467,131468,131469,131470,131471]	fud size: 13	fud cardinality: 51	model cardinality: 1042	time 0.0022732s
-model044	induce copy	slice: 131162	slice size: 3988	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66178	time 0.0015122s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 3988
-model044	induce model	der vars algn density: 2165.25	impl bi-valency percent: 31.1892	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0494908s
-model044	induce update	slice: 131162	parent slice: 131081	children cardinality: 7	children slices: [131472,131473,131474,131475,131476,131477,131478]	fud size: 10	fud cardinality: 52	model cardinality: 1052	time 0.0019544s
-model044	induce copy	slice: 131172	slice size: 3980	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66181	time 0.0011234s
-model044	induce model	repa dimension: 57	sparse dimension: 0
-model044	induce model	dimension: 57	size: 3980
-model044	induce model	der vars algn density: 1345.14	impl bi-valency percent: 40.2105	der vars cardinality: 2	fud cardinality: 22
-model044	induce model	time 0.253304s
-model044	induce update	slice: 131172	parent slice: 131112	children cardinality: 8	children slices: [131479,131480,131481,131482,131483,131484,131485,131486]	fud size: 30	fud cardinality: 53	model cardinality: 1082	time 0.0033982s
-model044	induce copy	slice: 131359	slice size: 3940	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66203	time 0.0012875s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 3940
-model044	induce model	der vars algn density: 2164.6	impl bi-valency percent: 31.6131	der vars cardinality: 3	fud cardinality: 4
-model044	induce model	time 0.102972s
-model044	induce update	slice: 131359	parent slice: 131187	children cardinality: 8	children slices: [131487,131488,131489,131490,131491,131492,131493,131494]	fud size: 12	fud cardinality: 54	model cardinality: 1094	time 0.0022264s
-model044	induce copy	slice: 131290	slice size: 3931	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66207	time 0.0010832s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 3931
-model044	induce model	der vars algn density: 1396.8	impl bi-valency percent: 42.6651	der vars cardinality: 2	fud cardinality: 38
-model044	induce model	time 0.483934s
-model044	induce update	slice: 131290	parent slice: 131137	children cardinality: 6	children slices: [131495,131496,131497,131498,131499,131500]	fud size: 44	fud cardinality: 55	model cardinality: 1138	time 0.0044306s
-model044	induce copy	slice: 131337	slice size: 3751	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66245	time 0.0011724s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 3751
-model044	induce model	der vars algn density: 2507.34	impl bi-valency percent: 39.6854	der vars cardinality: 3	fud cardinality: 32
-model044	induce model	time 0.678929s
-model044	induce update	slice: 131337	parent slice: 131207	children cardinality: 5	children slices: [131501,131502,131503,131504,131505]	fud size: 37	fud cardinality: 56	model cardinality: 1175	time 0.0034173s
-model044	induce copy	slice: 131284	slice size: 3654	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66277	time 0.0008977s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 3654
-model044	induce model	der vars algn density: 1290.88	impl bi-valency percent: 42.3729	der vars cardinality: 2	fud cardinality: 22
-model044	induce model	time 0.225111s
-model044	induce update	slice: 131284	parent slice: 131143	children cardinality: 7	children slices: [131506,131507,131508,131509,131510,131511,131512]	fud size: 29	fud cardinality: 57	model cardinality: 1204	time 0.003273s
-model044	induce copy	slice: 131272	slice size: 3542	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66299	time 0.0010563s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 3542
-model044	induce model	der vars algn density: 2056.19	impl bi-valency percent: 33.6773	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.046017s
-model044	induce update	slice: 131272	parent slice: 131121	children cardinality: 8	children slices: [131513,131514,131515,131516,131517,131518,131519,131520]	fud size: 11	fud cardinality: 58	model cardinality: 1215	time 0.001737s
-model044	induce copy	slice: 131253	slice size: 3504	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66302	time 0.0008358s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 3504
-model044	induce model	der vars algn density: 1211.4	impl bi-valency percent: 41.3007	der vars cardinality: 2	fud cardinality: 26
-model044	induce model	time 0.229747s
-model044	induce update	slice: 131253	parent slice: 131135	children cardinality: 7	children slices: [131521,131522,131523,131524,131525,131526,131527]	fud size: 33	fud cardinality: 59	model cardinality: 1248	time 0.0031158s
-model044	induce copy	slice: 131330	slice size: 3353	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66328	time 0.0010912s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 3353
-model044	induce model	der vars algn density: 2035.23	impl bi-valency percent: 35.4583	der vars cardinality: 3	fud cardinality: 17
-model044	induce model	time 0.213449s
-model044	induce update	slice: 131330	parent slice: 131207	children cardinality: 8	children slices: [131528,131529,131530,131531,131532,131533,131534,131535]	fud size: 25	fud cardinality: 60	model cardinality: 1273	time 0.0025196s
-model044	induce copy	slice: 131299	slice size: 3255	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66345	time 0.0009244s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 3255
-model044	induce model	der vars algn density: 1986.63	impl bi-valency percent: 35.6849	der vars cardinality: 3	fud cardinality: 8
-model044	induce model	time 0.0739992s
-model044	induce update	slice: 131299	parent slice: 131128	children cardinality: 7	children slices: [131536,131537,131538,131539,131540,131541,131542]	fud size: 15	fud cardinality: 61	model cardinality: 1288	time 0.002564s
-model044	induce copy	slice: 131251	slice size: 3224	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66353	time 0.0010855s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 3224
-model044	induce model	der vars algn density: 1851.95	impl bi-valency percent: 33.2707	der vars cardinality: 3	fud cardinality: 5
-model044	induce model	time 0.0938886s
-model044	induce update	slice: 131251	parent slice: 131135	children cardinality: 8	children slices: [131543,131544,131545,131546,131547,131548,131549,131550]	fud size: 13	fud cardinality: 62	model cardinality: 1301	time 0.0021951s
-model044	induce copy	slice: 131319	slice size: 3196	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66358	time 0.000792s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 3196
-model044	induce model	der vars algn density: 1524.54	impl bi-valency percent: 26.9353	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0401905s
-model044	induce update	slice: 131319	parent slice: 131145	children cardinality: 8	children slices: [131551,131552,131553,131554,131555,131556,131557,131558]	fud size: 11	fud cardinality: 63	model cardinality: 1312	time 0.0017221s
-model044	induce copy	slice: 131296	slice size: 3098	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66361	time 0.000889s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 3098
-model044	induce model	der vars algn density: 1039.19	impl bi-valency percent: 39.8556	der vars cardinality: 2	fud cardinality: 14
-model044	induce model	time 0.214919s
-model044	induce update	slice: 131296	parent slice: 131128	children cardinality: 8	children slices: [131559,131560,131561,131562,131563,131564,131565,131566]	fud size: 22	fud cardinality: 64	model cardinality: 1334	time 0.0024727s
-model044	induce copy	slice: 131263	slice size: 2992	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66375	time 0.0007822s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 2992
-model044	induce model	der vars algn density: 1027.17	impl bi-valency percent: 40.9601	der vars cardinality: 2	fud cardinality: 17
-model044	induce model	time 0.144782s
-model044	induce update	slice: 131263	parent slice: 131124	children cardinality: 6	children slices: [131567,131568,131569,131570,131571,131572]	fud size: 23	fud cardinality: 65	model cardinality: 1357	time 0.0034117s
-model044	induce copy	slice: 131445	slice size: 2965	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66392	time 0.0011314s
-model044	induce model	repa dimension: 38	sparse dimension: 0
-model044	induce model	dimension: 38	size: 2965
-model044	induce model	der vars algn density: 498.886	impl bi-valency percent: 8.77695	der vars cardinality: 3	fud cardinality: 27
-model044	induce model	time 0.422064s
-model044	induce update	slice: 131445	parent slice: 131398	children cardinality: 8	children slices: [131573,131574,131575,131576,131577,131578,131579,131580]	fud size: 35	fud cardinality: 66	model cardinality: 1392	time 0.0030992s
-model044	induce copy	slice: 131425	slice size: 2835	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66419	time 0.0006932s
-model044	induce model	repa dimension: 56	sparse dimension: 0
-model044	induce model	dimension: 56	size: 2835
-model044	induce model	der vars algn density: 1926.98	impl bi-valency percent: 40.4746	der vars cardinality: 3	fud cardinality: 36
-model044	induce model	time 0.828071s
-model044	induce update	slice: 131425	parent slice: 131293	children cardinality: 4	children slices: [131581,131582,131583,131584]	fud size: 40	fud cardinality: 67	model cardinality: 1432	time 0.0033091s
-model044	induce copy	slice: 131366	slice size: 2832	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66455	time 0.0007665s
-model044	induce model	repa dimension: 57	sparse dimension: 0
-model044	induce model	dimension: 57	size: 2832
-model044	induce model	der vars algn density: 979.226	impl bi-valency percent: 41.308	der vars cardinality: 2	fud cardinality: 27
-model044	induce model	time 0.376319s
-model044	induce update	slice: 131366	parent slice: 131187	children cardinality: 5	children slices: [131585,131586,131587,131588,131589]	fud size: 32	fud cardinality: 68	model cardinality: 1464	time 0.0044743s
-model044	induce copy	slice: 131248	slice size: 2770	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66482	time 0.0008661s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 2770
-model044	induce model	der vars algn density: 1102.55	impl bi-valency percent: 22.0201	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0409643s
-model044	induce update	slice: 131248	parent slice: 131135	children cardinality: 7	children slices: [131590,131591,131592,131593,131594,131595,131596]	fud size: 10	fud cardinality: 69	model cardinality: 1474	time 0.0021626s
-model044	induce copy	slice: 131494	slice size: 2664	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66485	time 0.0009045s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 2664
-model044	induce model	der vars algn density: 1690.37	impl bi-valency percent: 37.3362	der vars cardinality: 3	fud cardinality: 23
-model044	induce model	time 0.491294s
-model044	induce update	slice: 131494	parent slice: 131359	children cardinality: 7	children slices: [131597,131598,131599,131600,131601,131602,131603]	fud size: 30	fud cardinality: 70	model cardinality: 1504	time 0.0031418s
-model044	induce copy	slice: 131285	slice size: 2648	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66508	time 0.0006266s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 2648
-model044	induce model	der vars algn density: 1273.15	impl bi-valency percent: 27.1756	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0391726s
-model044	induce update	slice: 131285	parent slice: 131143	children cardinality: 8	children slices: [131604,131605,131606,131607,131608,131609,131610,131611]	fud size: 11	fud cardinality: 71	model cardinality: 1515	time 0.0018458s
-model044	induce copy	slice: 131411	slice size: 2619	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66511	time 0.001002s
-model044	induce model	repa dimension: 48	sparse dimension: 0
-model044	induce model	dimension: 48	size: 2619
-model044	induce model	der vars algn density: 1251.4	impl bi-valency percent: 26.9862	der vars cardinality: 3	fud cardinality: 7
-model044	induce model	time 0.0848112s
-model044	induce update	slice: 131411	parent slice: 131177	children cardinality: 7	children slices: [131612,131613,131614,131615,131616,131617,131618]	fud size: 14	fud cardinality: 72	model cardinality: 1529	time 0.0018526s
-model044	induce copy	slice: 131373	slice size: 2618	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66518	time 0.0006305s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 2618
-model044	induce model	der vars algn density: 1756.3	impl bi-valency percent: 39.8539	der vars cardinality: 3	fud cardinality: 23
-model044	induce model	time 0.215184s
-model044	induce update	slice: 131373	parent slice: 131155	children cardinality: 4	children slices: [131619,131620,131621,131622]	fud size: 27	fud cardinality: 73	model cardinality: 1556	time 0.0031329s
-model044	induce copy	slice: 131317	slice size: 2580	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66541	time 0.0006152s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 2580
-model044	induce model	der vars algn density: 899.117	impl bi-valency percent: 41.6933	der vars cardinality: 2	fud cardinality: 32
-model044	induce model	time 0.325675s
-model044	induce update	slice: 131317	parent slice: 131145	children cardinality: 7	children slices: [131623,131624,131625,131626,131627,131628,131629]	fud size: 39	fud cardinality: 74	model cardinality: 1595	time 0.0036748s
-model044	induce copy	slice: 131580	slice size: 2580	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66573	time 0.0007672s
-model044	induce model	repa dimension: 29	sparse dimension: 0
-model044	induce model	dimension: 29	size: 2580
-model044	induce model	der vars algn density: 100.54	impl bi-valency percent: 1.96755	der vars cardinality: 3	fud cardinality: 12
-model044	induce model	time 0.172657s
-model044	induce update	slice: 131580	parent slice: 131445	children cardinality: 7	children slices: [131630,131631,131632,131633,131634,131635,131636]	fud size: 19	fud cardinality: 75	model cardinality: 1614	time 0.0023723s
-model044	induce copy	slice: 131635	slice size: 2541	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66585	time 0.0005153s
-model044	induce model	repa dimension: 20	sparse dimension: 0
-model044	induce model	dimension: 20	size: 2541
-model044	induce model	der vars algn density: 71.3906	impl bi-valency percent: 1.41469	der vars cardinality: 3	fud cardinality: 7
-model044	induce model	time 0.051007s
-model044	induce update	slice: 131635	parent slice: 131580	children cardinality: 8	children slices: [131637,131638,131639,131640,131641,131642,131643,131644]	fud size: 15	fud cardinality: 76	model cardinality: 1629	time 0.0015011s
-model044	induce copy	slice: 131640	slice size: 2489	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66592	time 0.0004758s
-model044	induce model	repa dimension: 16	sparse dimension: 0
-model044	induce model	dimension: 16	size: 2489
-model044	induce model	der vars algn density: 18.7651	impl bi-valency percent: 0.377672	der vars cardinality: 3	fud cardinality: 16
-model044	induce model	time 0.209969s
-model044	induce update	slice: 131640	parent slice: 131635	children cardinality: 6	children slices: [131645,131646,131647,131648,131649,131650]	fud size: 22	fud cardinality: 77	model cardinality: 1651	time 0.0020672s
-model044	induce copy	slice: 131404	slice size: 2486	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66608	time 0.0006268s
-model044	induce model	repa dimension: 51	sparse dimension: 0
-model044	induce model	dimension: 51	size: 2486
-model044	induce model	der vars algn density: 1666.34	impl bi-valency percent: 39.8143	der vars cardinality: 3	fud cardinality: 16
-model044	induce model	time 0.305535s
-model044	induce update	slice: 131404	parent slice: 131177	children cardinality: 6	children slices: [131651,131652,131653,131654,131655,131656]	fud size: 22	fud cardinality: 78	model cardinality: 1673	time 0.0024486s
-model044	induce copy	slice: 131649	slice size: 2477	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66624	time 0.0006213s
-model044	induce model	repa dimension: 11	sparse dimension: 0
-model044	induce model	dimension: 11	size: 2477
-model044	induce model	der vars algn density: 7.08353	impl bi-valency percent: 0.143088	der vars cardinality: 3	fud cardinality: 7
-model044	induce model	time 0.0406555s
-model044	induce update	slice: 131649	parent slice: 131640	children cardinality: 7	children slices: [131657,131658,131659,131660,131661,131662,131663]	fud size: 14	fud cardinality: 79	model cardinality: 1687	time 0.0018765s
-model044	induce copy	slice: 131280	slice size: 2474	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66631	time 0.0007145s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 2474
-model044	induce model	der vars algn density: 718.177	impl bi-valency percent: 33.6815	der vars cardinality: 2	fud cardinality: 2
-model044	induce model	time 0.0334965s
-model044	induce update	slice: 131280	parent slice: 131143	children cardinality: 8	children slices: [131664,131665,131666,131667,131668,131669,131670,131671]	fud size: 10	fud cardinality: 80	model cardinality: 1697	time 0.0015186s
-model044	induce copy	slice: 131662	slice size: 2463	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66633	time 0.0006022s
-model044	induce model	repa dimension: 8	sparse dimension: 0
-model044	induce model	dimension: 8	size: 2463
-model044	induce model	no alignment
-model044	induce model	time 0.0028401s
-model044	induce update fail	slice: 131662	slice size: 2463	time 2.6e-06s
-model044	induce copy	slice: 131412	slice size: 2327	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66633	time 0.0006911s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 2327
-model044	induce model	der vars algn density: 1322	impl bi-valency percent: 32.8507	der vars cardinality: 3	fud cardinality: 9
-model044	induce model	time 0.0976623s
-model044	induce update	slice: 131412	parent slice: 131246	children cardinality: 8	children slices: [131672,131673,131674,131675,131676,131677,131678,131679]	fud size: 17	fud cardinality: 81	model cardinality: 1714	time 0.0023449s
-model044	induce copy	slice: 131379	slice size: 2299	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66642	time 0.0005716s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 2299
-model044	induce model	der vars algn density: 1304.54	impl bi-valency percent: 32.8059	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0431199s
-model044	induce update	slice: 131379	parent slice: 131194	children cardinality: 8	children slices: [131680,131681,131682,131683,131684,131685,131686,131687]	fud size: 11	fud cardinality: 82	model cardinality: 1725	time 0.0014829s
-model044	induce copy	slice: 131370	slice size: 2229	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66645	time 0.0004732s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 2229
-model044	induce model	der vars algn density: 744.859	impl bi-valency percent: 39.6777	der vars cardinality: 2	fud cardinality: 27
-model044	induce model	time 0.229378s
-model044	induce update	slice: 131370	parent slice: 131155	children cardinality: 7	children slices: [131688,131689,131690,131691,131692,131693,131694]	fud size: 34	fud cardinality: 83	model cardinality: 1759	time 0.0031714s
-model044	induce copy	slice: 131384	slice size: 2228	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66672	time 0.0005867s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 2228
-model044	induce model	der vars algn density: 1156.15	impl bi-valency percent: 29.6229	der vars cardinality: 3	fud cardinality: 5
-model044	induce model	time 0.0620067s
-model044	induce update	slice: 131384	parent slice: 131160	children cardinality: 7	children slices: [131695,131696,131697,131698,131699,131700,131701]	fud size: 12	fud cardinality: 84	model cardinality: 1771	time 0.0016436s
-model044	induce copy	slice: 131471	slice size: 2178	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66677	time 0.000563s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 2178
-model044	induce model	der vars algn density: 1154.19	impl bi-valency percent: 30.3385	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0313882s
-model044	induce update	slice: 131471	parent slice: 131130	children cardinality: 8	children slices: [131702,131703,131704,131705,131706,131707,131708,131709]	fud size: 11	fud cardinality: 85	model cardinality: 1782	time 0.0013464s
-model044	induce copy	slice: 131400	slice size: 2154	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66680	time 0.0005177s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 2154
-model044	induce model	der vars algn density: 1234.6	impl bi-valency percent: 33.1869	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0418743s
-model044	induce update	slice: 131400	parent slice: 131278	children cardinality: 8	children slices: [131710,131711,131712,131713,131714,131715,131716,131717]	fud size: 11	fud cardinality: 86	model cardinality: 1793	time 0.001311s
-model044	induce copy	slice: 131439	slice size: 2085	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66683	time 0.0004782s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 2085
-model044	induce model	der vars algn density: 655.667	impl bi-valency percent: 36.9531	der vars cardinality: 2	fud cardinality: 6
-model044	induce model	time 0.0603514s
-model044	induce update	slice: 131439	parent slice: 131139	children cardinality: 9	children slices: [131718,131719,131720,131721,131722,131723,131724,131725,131726]	fud size: 15	fud cardinality: 87	model cardinality: 1808	time 0.002025s
-model044	induce copy	slice: 131303	slice size: 2004	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66689	time 0.0004698s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 2004
-model044	induce model	der vars algn density: 695.162	impl bi-valency percent: 41.4657	der vars cardinality: 2	fud cardinality: 32
-model044	induce model	time 0.273267s
-model044	induce update	slice: 131303	parent slice: 131128	children cardinality: 4	children slices: [131727,131728,131729,131730]	fud size: 36	fud cardinality: 88	model cardinality: 1844	time 0.0043532s
-model044	induce copy	slice: 131387	slice size: 1988	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66721	time 0.0004825s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1988
-model044	induce model	der vars algn density: 978.828	impl bi-valency percent: 27.9135	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.035895s
-model044	induce update	slice: 131387	parent slice: 131160	children cardinality: 8	children slices: [131731,131732,131733,131734,131735,131736,131737,131738]	fud size: 11	fud cardinality: 89	model cardinality: 1855	time 0.0014559s
-model044	induce copy	slice: 131417	slice size: 1968	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66724	time 0.0004219s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1968
-model044	induce model	der vars algn density: 1067.56	impl bi-valency percent: 31.1576	der vars cardinality: 3	fud cardinality: 5
-model044	induce model	time 0.0576896s
-model044	induce update	slice: 131417	parent slice: 131246	children cardinality: 8	children slices: [131739,131740,131741,131742,131743,131744,131745,131746]	fud size: 13	fud cardinality: 90	model cardinality: 1868	time 0.0019364s
-model044	induce copy	slice: 131449	slice size: 1962	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66729	time 0.0005171s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 1962
-model044	induce model	der vars algn density: 1148.63	impl bi-valency percent: 34.0065	der vars cardinality: 3	fud cardinality: 13
-model044	induce model	time 0.105721s
-model044	induce update	slice: 131449	parent slice: 131206	children cardinality: 7	children slices: [131747,131748,131749,131750,131751,131752,131753]	fud size: 20	fud cardinality: 91	model cardinality: 1888	time 0.0021821s
-model044	induce copy	slice: 131501	slice size: 1926	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66742	time 0.0004007s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 1926
-model044	induce model	der vars algn density: 1208.95	impl bi-valency percent: 36.8686	der vars cardinality: 3	fud cardinality: 21
-model044	induce model	time 0.358628s
-model044	induce update	slice: 131501	parent slice: 131337	children cardinality: 5	children slices: [131754,131755,131756,131757,131758]	fud size: 26	fud cardinality: 92	model cardinality: 1914	time 0.0023126s
-model044	induce copy	slice: 131477	slice size: 1895	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66763	time 0.0004155s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1895
-model044	induce model	der vars algn density: 970.143	impl bi-valency percent: 29.172	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0320062s
-model044	induce update	slice: 131477	parent slice: 131162	children cardinality: 6	children slices: [131759,131760,131761,131762,131763,131764]	fud size: 9	fud cardinality: 93	model cardinality: 1923	time 0.0013084s
-model044	induce copy	slice: 131421	slice size: 1884	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66766	time 0.0004366s
-model044	induce model	repa dimension: 52	sparse dimension: 0
-model044	induce model	dimension: 52	size: 1884
-model044	induce model	der vars algn density: 1091.62	impl bi-valency percent: 33.6036	der vars cardinality: 3	fud cardinality: 7
-model044	induce model	time 0.0683555s
-model044	induce update	slice: 131421	parent slice: 131240	children cardinality: 8	children slices: [131765,131766,131767,131768,131769,131770,131771,131772]	fud size: 15	fud cardinality: 94	model cardinality: 1938	time 0.0017949s
-model044	induce copy	slice: 131460	slice size: 1880	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66773	time 0.0004779s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1880
-model044	induce model	der vars algn density: 698.702	impl bi-valency percent: 20.4211	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0348968s
-model044	induce update	slice: 131460	parent slice: 131269	children cardinality: 8	children slices: [131773,131774,131775,131776,131777,131778,131779,131780]	fud size: 11	fud cardinality: 95	model cardinality: 1949	time 0.0011794s
-model044	induce copy	slice: 131267	slice size: 1867	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66776	time 0.0003652s
-model044	induce model	repa dimension: 56	sparse dimension: 0
-model044	induce model	dimension: 56	size: 1867
-model044	induce model	der vars algn density: 665.949	impl bi-valency percent: 42.86	der vars cardinality: 2	fud cardinality: 34
-model044	induce model	time 0.4604s
-model044	induce update	slice: 131267	parent slice: 131124	children cardinality: 5	children slices: [131781,131782,131783,131784,131785]	fud size: 39	fud cardinality: 96	model cardinality: 1988	time 0.0037832s
-model044	induce copy	slice: 131513	slice size: 1861	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66810	time 0.0004619s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1861
-model044	induce model	der vars algn density: 607.087	impl bi-valency percent: 38.5714	der vars cardinality: 2	fud cardinality: 14
-model044	induce model	time 0.141119s
-model044	induce update	slice: 131513	parent slice: 131272	children cardinality: 9	children slices: [131786,131787,131788,131789,131790,131791,131792,131793,131794]	fud size: 23	fud cardinality: 97	model cardinality: 2011	time 0.0026215s
-model044	induce copy	slice: 131536	slice size: 1837	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66824	time 0.0005855s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1837
-model044	induce model	der vars algn density: 569.941	impl bi-valency percent: 36.3775	der vars cardinality: 2	fud cardinality: 18
-model044	induce model	time 0.208888s
-model044	induce update	slice: 131536	parent slice: 131299	children cardinality: 6	children slices: [131795,131796,131797,131798,131799,131800]	fud size: 24	fud cardinality: 98	model cardinality: 2035	time 0.0037479s
-model044	induce copy	slice: 131432	slice size: 1835	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66842	time 0.0004421s
-model044	induce model	repa dimension: 56	sparse dimension: 0
-model044	induce model	dimension: 56	size: 1835
-model044	induce model	der vars algn density: 951.721	impl bi-valency percent: 29.6054	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0359275s
-model044	induce update	slice: 131432	parent slice: 131293	children cardinality: 8	children slices: [131801,131802,131803,131804,131805,131806,131807,131808]	fud size: 11	fud cardinality: 99	model cardinality: 2046	time 0.0012064s
-model044	induce copy	slice: 131504	slice size: 1819	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66845	time 0.0004676s
-model044	induce model	repa dimension: 51	sparse dimension: 0
-model044	induce model	dimension: 51	size: 1819
-model044	induce model	der vars algn density: 1156.27	impl bi-valency percent: 37.4146	der vars cardinality: 3	fud cardinality: 20
-model044	induce model	time 0.358927s
-model044	induce update	slice: 131504	parent slice: 131337	children cardinality: 7	children slices: [131809,131810,131811,131812,131813,131814,131815]	fud size: 27	fud cardinality: 100	model cardinality: 2073	time 0.002671s
-model044	induce copy	slice: 131399	slice size: 1805	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66865	time 0.0003978s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1805
-model044	induce model	der vars algn density: 861.601	impl bi-valency percent: 26.956	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0299569s
-model044	induce update	slice: 131399	parent slice: 131278	children cardinality: 8	children slices: [131816,131817,131818,131819,131820,131821,131822,131823]	fud size: 11	fud cardinality: 101	model cardinality: 2084	time 0.0013637s
-model044	induce copy	slice: 131464	slice size: 1803	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66868	time 0.000423s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1803
-model044	induce model	der vars algn density: 1003.61	impl bi-valency percent: 32.0906	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.032923s
-model044	induce update	slice: 131464	parent slice: 131130	children cardinality: 8	children slices: [131824,131825,131826,131827,131828,131829,131830,131831]	fud size: 11	fud cardinality: 102	model cardinality: 2095	time 0.0011045s
-model044	induce copy	slice: 131456	slice size: 1802	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66871	time 0.0004456s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 1802
-model044	induce model	der vars algn density: 1001.61	impl bi-valency percent: 32.0374	der vars cardinality: 3	fud cardinality: 4
-model044	induce model	time 0.0665456s
-model044	induce update	slice: 131456	parent slice: 131206	children cardinality: 8	children slices: [131832,131833,131834,131835,131836,131837,131838,131839]	fud size: 12	fud cardinality: 103	model cardinality: 2107	time 0.0016515s
-model044	induce copy	slice: 131472	slice size: 1797	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66875	time 0.0004156s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1797
-model044	induce model	der vars algn density: 522.233	impl bi-valency percent: 33.7248	der vars cardinality: 2	fud cardinality: 16
-model044	induce model	time 0.146475s
-model044	induce update	slice: 131472	parent slice: 131162	children cardinality: 9	children slices: [131840,131841,131842,131843,131844,131845,131846,131847,131848]	fud size: 25	fud cardinality: 104	model cardinality: 2132	time 0.0031479s
-model044	induce copy	slice: 131543	slice size: 1749	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66891	time 0.0003974s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1749
-model044	induce model	der vars algn density: 476.254	impl bi-valency percent: 31.2982	der vars cardinality: 2	fud cardinality: 2
-model044	induce model	time 0.0291096s
-model044	induce update	slice: 131543	parent slice: 131251	children cardinality: 9	children slices: [131849,131850,131851,131852,131853,131854,131855,131856,131857]	fud size: 11	fud cardinality: 105	model cardinality: 2143	time 0.0010463s
-model044	induce copy	slice: 131375	slice size: 1733	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66893	time 0.0004073s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1733
-model044	induce model	der vars algn density: 1070.67	impl bi-valency percent: 36.1934	der vars cardinality: 3	fud cardinality: 5
-model044	induce model	time 0.0499316s
-model044	induce update	slice: 131375	parent slice: 131194	children cardinality: 6	children slices: [131858,131859,131860,131861,131862,131863]	fud size: 11	fud cardinality: 106	model cardinality: 2154	time 0.0017039s
-model044	induce copy	slice: 131535	slice size: 1705	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66898	time 0.0004197s
-model044	induce model	repa dimension: 53	sparse dimension: 0
-model044	induce model	dimension: 53	size: 1705
-model044	induce model	der vars algn density: 921.011	impl bi-valency percent: 31.0084	der vars cardinality: 3	fud cardinality: 16
-model044	induce model	time 0.138971s
-model044	induce update	slice: 131535	parent slice: 131330	children cardinality: 7	children slices: [131864,131865,131866,131867,131868,131869,131870]	fud size: 23	fud cardinality: 107	model cardinality: 2177	time 0.002474s
-model044	induce copy	slice: 131255	slice size: 1616	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66914	time 0.000349s
-model044	induce model	repa dimension: 52	sparse dimension: 0
-model044	induce model	dimension: 52	size: 1616
-model044	induce model	der vars algn density: 539.408	impl bi-valency percent: 39.6253	der vars cardinality: 2	fud cardinality: 23
-model044	induce model	time 0.23523s
-model044	induce update	slice: 131255	parent slice: 131154	children cardinality: 8	children slices: [131871,131872,131873,131874,131875,131876,131877,131878]	fud size: 31	fud cardinality: 108	model cardinality: 2208	time 0.003257s
-model044	induce copy	slice: 131528	slice size: 1601	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66937	time 0.0004401s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 1601
-model044	induce model	der vars algn density: 785.466	impl bi-valency percent: 27.8011	der vars cardinality: 3	fud cardinality: 7
-model044	induce model	time 0.13422s
-model044	induce update	slice: 131528	parent slice: 131330	children cardinality: 5	children slices: [131879,131880,131881,131882,131883]	fud size: 12	fud cardinality: 109	model cardinality: 2220	time 0.0021234s
-model044	induce copy	slice: 131433	slice size: 1577	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66944	time 0.0003673s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1577
-model044	induce model	der vars algn density: 537.86	impl bi-valency percent: 40.6445	der vars cardinality: 2	fud cardinality: 19
-model044	induce model	time 0.155234s
-model044	induce update	slice: 131433	parent slice: 131139	children cardinality: 6	children slices: [131884,131885,131886,131887,131888,131889]	fud size: 25	fud cardinality: 110	model cardinality: 2245	time 0.0026172s
-model044	induce copy	slice: 131521	slice size: 1570	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66963	time 0.0003651s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1570
-model044	induce model	der vars algn density: 712.027	impl bi-valency percent: 25.4529	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0310135s
-model044	induce update	slice: 131521	parent slice: 131253	children cardinality: 8	children slices: [131890,131891,131892,131893,131894,131895,131896,131897]	fud size: 11	fud cardinality: 111	model cardinality: 2256	time 0.001129s
-model044	induce copy	slice: 131402	slice size: 1547	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66966	time 0.0003347s
-model044	induce model	repa dimension: 54	sparse dimension: 0
-model044	induce model	dimension: 54	size: 1547
-model044	induce model	der vars algn density: 513.489	impl bi-valency percent: 39.3649	der vars cardinality: 2	fud cardinality: 22
-model044	induce model	time 0.217203s
-model044	induce update	slice: 131402	parent slice: 131278	children cardinality: 9	children slices: [131898,131899,131900,131901,131902,131903,131904,131905,131906]	fud size: 31	fud cardinality: 112	model cardinality: 2287	time 0.0033825s
-model044	induce copy	slice: 131482	slice size: 1535	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66988	time 0.0004029s
-model044	induce model	repa dimension: 57	sparse dimension: 0
-model044	induce model	dimension: 57	size: 1535
-model044	induce model	der vars algn density: 726.939	impl bi-valency percent: 26.7172	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0282638s
-model044	induce update	slice: 131482	parent slice: 131172	children cardinality: 8	children slices: [131907,131908,131909,131910,131911,131912,131913,131914]	fud size: 11	fud cardinality: 113	model cardinality: 2298	time 0.0010565s
-model044	induce copy	slice: 131388	slice size: 1531	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66991	time 0.0003469s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1531
-model044	induce model	der vars algn density: 851.988	impl bi-valency percent: 32.0811	der vars cardinality: 3	fud cardinality: 5
-model044	induce model	time 0.073873s
-model044	induce update	slice: 131388	parent slice: 131160	children cardinality: 7	children slices: [131915,131916,131917,131918,131919,131920,131921]	fud size: 12	fud cardinality: 114	model cardinality: 2310	time 0.0014183s
-model044	induce copy	slice: 131383	slice size: 1528	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66996	time 0.0003504s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1528
-model044	induce model	der vars algn density: 904.685	impl bi-valency percent: 34.4518	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.032246s
-model044	induce update	slice: 131383	parent slice: 131194	children cardinality: 8	children slices: [131922,131923,131924,131925,131926,131927,131928,131929]	fud size: 11	fud cardinality: 115	model cardinality: 2321	time 0.0010637s
-model044	induce copy	slice: 131597	slice size: 1528	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 66999	time 0.0006057s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 1528
-model044	induce model	der vars algn density: 909.312	impl bi-valency percent: 34.6555	der vars cardinality: 3	fud cardinality: 13
-model044	induce model	time 0.132922s
-model044	induce update	slice: 131597	parent slice: 131494	children cardinality: 8	children slices: [131930,131931,131932,131933,131934,131935,131936,131937]	fud size: 21	fud cardinality: 116	model cardinality: 2342	time 0.0020471s
-model044	induce copy	slice: 131519	slice size: 1509	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67012	time 0.0003465s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1509
-model044	induce model	der vars algn density: 806.554	impl bi-valency percent: 30.6364	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0381061s
-model044	induce update	slice: 131519	parent slice: 131272	children cardinality: 8	children slices: [131938,131939,131940,131941,131942,131943,131944,131945]	fud size: 11	fud cardinality: 117	model cardinality: 2353	time 0.0011954s
-model044	induce copy	slice: 131510	slice size: 1494	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67015	time 0.0003391s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1494
-model044	induce model	der vars algn density: 692.832	impl bi-valency percent: 26.0958	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0256265s
-model044	induce update	slice: 131510	parent slice: 131284	children cardinality: 8	children slices: [131946,131947,131948,131949,131950,131951,131952,131953]	fud size: 11	fud cardinality: 118	model cardinality: 2364	time 0.0011636s
-model044	induce copy	slice: 131498	slice size: 1475	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67018	time 0.0004163s
-model044	induce model	repa dimension: 54	sparse dimension: 0
-model044	induce model	dimension: 54	size: 1475
-model044	induce model	der vars algn density: 843.143	impl bi-valency percent: 33.0841	der vars cardinality: 3	fud cardinality: 8
-model044	induce model	time 0.0549295s
-model044	induce update	slice: 131498	parent slice: 131290	children cardinality: 8	children slices: [131954,131955,131956,131957,131958,131959,131960,131961]	fud size: 16	fud cardinality: 119	model cardinality: 2380	time 0.0016638s
-model044	induce copy	slice: 131423	slice size: 1463	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67026	time 0.0003175s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1463
-model044	induce model	der vars algn density: 548.026	impl bi-valency percent: 20.5983	der vars cardinality: 3	fud cardinality: 13
-model044	induce model	time 0.0833908s
-model044	induce update	slice: 131423	parent slice: 131240	children cardinality: 4	children slices: [131962,131963,131964,131965]	fud size: 17	fud cardinality: 120	model cardinality: 2397	time 0.0018067s
-model044	induce copy	slice: 131583	slice size: 1453	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67039	time 0.0003492s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1453
-model044	induce model	der vars algn density: 529.262	impl bi-valency percent: 19.9767	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0402179s
-model044	induce update	slice: 131583	parent slice: 131425	children cardinality: 8	children slices: [131966,131967,131968,131969,131970,131971,131972,131973]	fud size: 11	fud cardinality: 121	model cardinality: 2408	time 0.0010518s
-model044	induce copy	slice: 131313	slice size: 1446	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67042	time 0.0004092s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1446
-model044	induce model	der vars algn density: 483.756	impl bi-valency percent: 39.7308	der vars cardinality: 2	fud cardinality: 15
-model044	induce model	time 0.180199s
-model044	induce update	slice: 131313	parent slice: 131145	children cardinality: 6	children slices: [131974,131975,131976,131977,131978,131979]	fud size: 21	fud cardinality: 122	model cardinality: 2429	time 0.0027707s
-model044	induce copy	slice: 131419	slice size: 1445	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67057	time 0.0003228s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1445
-model044	induce model	der vars algn density: 928.279	impl bi-valency percent: 37.8787	der vars cardinality: 3	fud cardinality: 8
-model044	induce model	time 0.146318s
-model044	induce update	slice: 131419	parent slice: 131240	children cardinality: 8	children slices: [131980,131981,131982,131983,131984,131985,131986,131987]	fud size: 16	fud cardinality: 123	model cardinality: 2445	time 0.0017973s
-model044	induce copy	slice: 131555	slice size: 1429	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67065	time 0.000306s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1429
-model044	induce model	der vars algn density: 745.417	impl bi-valency percent: 29.7991	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0280257s
-model044	induce update	slice: 131555	parent slice: 131319	children cardinality: 8	children slices: [131988,131989,131990,131991,131992,131993,131994,131995]	fud size: 11	fud cardinality: 124	model cardinality: 2456	time 0.0010057s
-model044	induce copy	slice: 131485	slice size: 1382	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67068	time 0.0003416s
-model044	induce model	repa dimension: 57	sparse dimension: 0
-model044	induce model	dimension: 57	size: 1382
-model044	induce model	der vars algn density: 636.641	impl bi-valency percent: 25.902	der vars cardinality: 3	fud cardinality: 5
-model044	induce model	time 0.0534616s
-model044	induce update	slice: 131485	parent slice: 131172	children cardinality: 7	children slices: [131996,131997,131998,131999,132000,132001,132002]	fud size: 12	fud cardinality: 125	model cardinality: 2468	time 0.0015345s
-model044	induce copy	slice: 131563	slice size: 1380	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67073	time 0.0003239s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1380
-model044	induce model	der vars algn density: 480.484	impl bi-valency percent: 41.6483	der vars cardinality: 2	fud cardinality: 33
-model044	induce model	time 0.237764s
-model044	induce update	slice: 131563	parent slice: 131296	children cardinality: 4	children slices: [132003,132004,132005,132006]	fud size: 37	fud cardinality: 126	model cardinality: 2505	time 0.0043407s
-model044	induce copy	slice: 131462	slice size: 1379	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67106	time 0.0003551s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1379
-model044	induce model	der vars algn density: 421.304	impl bi-valency percent: 35.7323	der vars cardinality: 2	fud cardinality: 6
-model044	induce model	time 0.053431s
-model044	induce update	slice: 131462	parent slice: 131269	children cardinality: 8	children slices: [132007,132008,132009,132010,132011,132012,132013,132014]	fud size: 14	fud cardinality: 127	model cardinality: 2519	time 0.0016747s
-model044	induce copy	slice: 131581	slice size: 1379	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67112	time 0.0003352s
-model044	induce model	repa dimension: 56	sparse dimension: 0
-model044	induce model	dimension: 56	size: 1379
-model044	induce model	der vars algn density: 906.924	impl bi-valency percent: 38.9347	der vars cardinality: 3	fud cardinality: 25
-model044	induce model	time 0.600983s
-model044	induce update	slice: 131581	parent slice: 131425	children cardinality: 7	children slices: [132015,132016,132017,132018,132019,132020,132021]	fud size: 32	fud cardinality: 128	model cardinality: 2551	time 0.0027912s
-model044	induce copy	slice: 131592	slice size: 1376	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67137	time 0.0003396s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1376
-model044	induce model	der vars algn density: 848.759	impl bi-valency percent: 36.1266	der vars cardinality: 3	fud cardinality: 4
-model044	induce model	time 0.0509455s
-model044	induce update	slice: 131592	parent slice: 131248	children cardinality: 8	children slices: [132022,132023,132024,132025,132026,132027,132028,132029]	fud size: 12	fud cardinality: 129	model cardinality: 2563	time 0.001588s
-model044	induce copy	slice: 131495	slice size: 1351	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67141	time 0.0003754s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1351
-model044	induce model	der vars algn density: 648.668	impl bi-valency percent: 27.1338	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0366082s
-model044	induce update	slice: 131495	parent slice: 131290	children cardinality: 8	children slices: [132030,132031,132032,132033,132034,132035,132036,132037]	fud size: 11	fud cardinality: 130	model cardinality: 2574	time 0.0011404s
-model044	induce copy	slice: 131554	slice size: 1349	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67144	time 0.0003301s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1349
-model044	induce model	der vars algn density: 733.455	impl bi-valency percent: 31.2392	der vars cardinality: 3	fud cardinality: 12
-model044	induce model	time 0.0947345s
-model044	induce update	slice: 131554	parent slice: 131319	children cardinality: 5	children slices: [132038,132039,132040,132041,132042]	fud size: 17	fud cardinality: 131	model cardinality: 2591	time 0.0023144s
-model044	induce copy	slice: 131541	slice size: 1343	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67156	time 0.000342s
-model044	induce model	repa dimension: 54	sparse dimension: 0
-model044	induce model	dimension: 54	size: 1343
-model044	induce model	der vars algn density: 774.256	impl bi-valency percent: 33.4099	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0246392s
-model044	induce update	slice: 131541	parent slice: 131299	children cardinality: 8	children slices: [132043,132044,132045,132046,132047,132048,132049,132050]	fud size: 11	fud cardinality: 132	model cardinality: 2602	time 0.0010407s
-model044	induce copy	slice: 131617	slice size: 1341	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67159	time 0.0003433s
-model044	induce model	repa dimension: 46	sparse dimension: 0
-model044	induce model	dimension: 46	size: 1341
-model044	induce model	der vars algn density: 418.438	impl bi-valency percent: 16.8846	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0574684s
-model044	induce update	slice: 131617	parent slice: 131411	children cardinality: 8	children slices: [132051,132052,132053,132054,132055,132056,132057,132058]	fud size: 11	fud cardinality: 133	model cardinality: 2613	time 0.0013125s
-model044	induce copy	slice: 131550	slice size: 1327	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67162	time 0.0003311s
-model044	induce model	repa dimension: 57	sparse dimension: 0
-model044	induce model	dimension: 57	size: 1327
-model044	induce model	der vars algn density: 764.781	impl bi-valency percent: 33.3973	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0294922s
-model044	induce update	slice: 131550	parent slice: 131251	children cardinality: 8	children slices: [132059,132060,132061,132062,132063,132064,132065,132066]	fud size: 11	fud cardinality: 134	model cardinality: 2624	time 0.0013198s
-model044	induce copy	slice: 131621	slice size: 1317	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67165	time 0.0003493s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1317
-model044	induce model	der vars algn density: 784.618	impl bi-valency percent: 34.7001	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0336101s
-model044	induce update	slice: 131621	parent slice: 131373	children cardinality: 8	children slices: [132067,132068,132069,132070,132071,132072,132073,132074]	fud size: 11	fud cardinality: 135	model cardinality: 2635	time 0.0012031s
-model044	induce copy	slice: 131619	slice size: 1300	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67168	time 0.0003398s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1300
-model044	induce model	der vars algn density: 888.872	impl bi-valency percent: 40.7583	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0281941s
-model044	induce update	slice: 131619	parent slice: 131373	children cardinality: 3	children slices: [132075,132076,132077]	fud size: 6	fud cardinality: 136	model cardinality: 2641	time 0.0009451s
-model044	induce copy	slice: 131655	slice size: 1281	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67171	time 0.0003166s
-model044	induce model	repa dimension: 48	sparse dimension: 0
-model044	induce model	dimension: 48	size: 1281
-model044	induce model	der vars algn density: 642.098	impl bi-valency percent: 28.4827	der vars cardinality: 3	fud cardinality: 10
-model044	induce model	time 0.0842493s
-model044	induce update	slice: 131655	parent slice: 131404	children cardinality: 6	children slices: [132078,132079,132080,132081,132082,132083]	fud size: 16	fud cardinality: 137	model cardinality: 2657	time 0.00148s
-model044	induce copy	slice: 131588	slice size: 1278	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67181	time 0.0003639s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1278
-model044	induce model	der vars algn density: 813.103	impl bi-valency percent: 37.4535	der vars cardinality: 3	fud cardinality: 21
-model044	induce model	time 0.337161s
-model044	induce update	slice: 131588	parent slice: 131366	children cardinality: 3	children slices: [132084,132085,132086]	fud size: 24	fud cardinality: 138	model cardinality: 2681	time 0.0029288s
-model044	induce copy	slice: 131367	slice size: 1253	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67202	time 0.0002972s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1253
-model044	induce model	der vars algn density: 419.413	impl bi-valency percent: 39.7559	der vars cardinality: 2	fud cardinality: 2
-model044	induce model	time 0.0239405s
-model044	induce update	slice: 131367	parent slice: 131155	children cardinality: 9	children slices: [132087,132088,132089,132090,132091,132092,132093,132094,132095]	fud size: 11	fud cardinality: 139	model cardinality: 2692	time 0.0011252s
-model044	induce copy	slice: 131695	slice size: 1239	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67204	time 0.0002771s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 1239
-model044	induce model	der vars algn density: 334.544	impl bi-valency percent: 30.998	der vars cardinality: 2	fud cardinality: 2
-model044	induce model	time 0.0304015s
-model044	induce update	slice: 131695	parent slice: 131384	children cardinality: 9	children slices: [132096,132097,132098,132099,132100,132101,132102,132103,132104]	fud size: 11	fud cardinality: 140	model cardinality: 2703	time 0.0010526s
-model044	induce copy	slice: 131882	slice size: 1225	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67206	time 0.0003261s
-model044	induce model	repa dimension: 52	sparse dimension: 0
-model044	induce model	dimension: 52	size: 1225
-model044	induce model	der vars algn density: 511.138	impl bi-valency percent: 23.1986	der vars cardinality: 3	fud cardinality: 16
-model044	induce model	time 0.115274s
-model044	induce update	slice: 131882	parent slice: 131528	children cardinality: 8	children slices: [132105,132106,132107,132108,132109,132110,132111,132112]	fud size: 24	fud cardinality: 141	model cardinality: 2727	time 0.002296s
-model044	induce copy	slice: 131754	slice size: 1219	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67222	time 0.0002917s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 1219
-model044	induce model	der vars algn density: 718.343	impl bi-valency percent: 34.2649	der vars cardinality: 3	fud cardinality: 20
-model044	induce model	time 0.334583s
-model044	induce update	slice: 131754	parent slice: 131501	children cardinality: 5	children slices: [132113,132114,132115,132116,132117]	fud size: 25	fud cardinality: 142	model cardinality: 2752	time 0.0023334s
-model044	induce copy	slice: 131712	slice size: 1208	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67242	time 0.0002679s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1208
-model044	induce model	der vars algn density: 634.074	impl bi-valency percent: 30.0109	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0244451s
-model044	induce update	slice: 131712	parent slice: 131400	children cardinality: 7	children slices: [132118,132119,132120,132121,132122,132123,132124]	fud size: 10	fud cardinality: 143	model cardinality: 2762	time 0.0012022s
-model044	induce copy	slice: 131678	slice size: 1204	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67245	time 0.0003222s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1204
-model044	induce model	der vars algn density: 790.582	impl bi-valency percent: 38.8626	der vars cardinality: 3	fud cardinality: 18
-model044	induce model	time 0.10415s
-model044	induce update	slice: 131678	parent slice: 131412	children cardinality: 4	children slices: [132125,132126,132127,132128]	fud size: 22	fud cardinality: 144	model cardinality: 2784	time 0.0024047s
-model044	induce copy	slice: 131442	slice size: 1201	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67263	time 0.0002985s
-model044	induce model	repa dimension: 48	sparse dimension: 0
-model044	induce model	dimension: 48	size: 1201
-model044	induce model	der vars algn density: 417.155	impl bi-valency percent: 18.9663	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0267832s
-model044	induce update	slice: 131442	parent slice: 131398	children cardinality: 8	children slices: [132129,132130,132131,132132,132133,132134,132135,132136]	fud size: 11	fud cardinality: 145	model cardinality: 2795	time 0.0011252s
-model044	induce copy	slice: 131651	slice size: 1198	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67266	time 0.0002663s
-model044	induce model	repa dimension: 51	sparse dimension: 0
-model044	induce model	dimension: 51	size: 1198
-model044	induce model	der vars algn density: 754.754	impl bi-valency percent: 37.0267	der vars cardinality: 3	fud cardinality: 14
-model044	induce model	time 0.103879s
-model044	induce update	slice: 131651	parent slice: 131404	children cardinality: 5	children slices: [132137,132138,132139,132140,132141]	fud size: 19	fud cardinality: 146	model cardinality: 2814	time 0.0021926s
-model044	induce copy	slice: 131687	slice size: 1197	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67280	time 0.0002981s
-model044	induce model	repa dimension: 57	sparse dimension: 0
-model044	induce model	dimension: 57	size: 1197
-model044	induce model	der vars algn density: 436.567	impl bi-valency percent: 20.0044	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0277836s
-model044	induce update	slice: 131687	parent slice: 131379	children cardinality: 8	children slices: [132142,132143,132144,132145,132146,132147,132148,132149]	fud size: 11	fud cardinality: 147	model cardinality: 2825	time 0.0011219s
-model044	induce copy	slice: 131702	slice size: 1196	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67283	time 0.0002769s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1196
-model044	induce model	der vars algn density: 690.973	impl bi-valency percent: 33.4916	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0272186s
-model044	induce update	slice: 131702	parent slice: 131471	children cardinality: 8	children slices: [132150,132151,132152,132153,132154,132155,132156,132157]	fud size: 11	fud cardinality: 148	model cardinality: 2836	time 0.0010874s
-model044	induce copy	slice: 131608	slice size: 1182	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67286	time 0.0002469s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1182
-model044	induce model	der vars algn density: 410.153	impl bi-valency percent: 41.4815	der vars cardinality: 2	fud cardinality: 27
-model044	induce model	time 0.202817s
-model044	induce update	slice: 131608	parent slice: 131285	children cardinality: 7	children slices: [132158,132159,132160,132161,132162,132163,132164]	fud size: 34	fud cardinality: 149	model cardinality: 2870	time 0.0043521s
-model044	induce copy	slice: 131487	slice size: 1170	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67313	time 0.0002938s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1170
-model044	induce model	der vars algn density: 693.878	impl bi-valency percent: 34.5181	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0367366s
-model044	induce update	slice: 131487	parent slice: 131359	children cardinality: 8	children slices: [132165,132166,132167,132168,132169,132170,132171,132172]	fud size: 11	fud cardinality: 150	model cardinality: 2881	time 0.0011286s
-model044	induce copy	slice: 131607	slice size: 1158	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67316	time 0.0002495s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1158
-model044	induce model	der vars algn density: 710.331	impl bi-valency percent: 35.8941	der vars cardinality: 3	fud cardinality: 13
-model044	induce model	time 0.0834754s
-model044	induce update	slice: 131607	parent slice: 131285	children cardinality: 5	children slices: [132173,132174,132175,132176,132177]	fud size: 18	fud cardinality: 151	model cardinality: 2899	time 0.0020577s
-model044	induce copy	slice: 131567	slice size: 1145	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67329	time 0.0002536s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1145
-model044	induce model	der vars algn density: 585.26	impl bi-valency percent: 29.12	der vars cardinality: 3	fud cardinality: 7
-model044	induce model	time 0.0436454s
-model044	induce update	slice: 131567	parent slice: 131263	children cardinality: 8	children slices: [132178,132179,132180,132181,132182,132183,132184,132185]	fud size: 15	fud cardinality: 152	model cardinality: 2914	time 0.0016973s
-model044	induce copy	slice: 131506	slice size: 1128	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67336	time 0.0002788s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1128
-model044	induce model	der vars algn density: 310.664	impl bi-valency percent: 31.7072	der vars cardinality: 2	fud cardinality: 5
-model044	induce model	time 0.0430359s
-model044	induce update	slice: 131506	parent slice: 131284	children cardinality: 8	children slices: [132186,132187,132188,132189,132190,132191,132192,132193]	fud size: 13	fud cardinality: 153	model cardinality: 2927	time 0.0014009s
-model044	induce copy	slice: 131602	slice size: 1114	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67341	time 0.0002798s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1114
-model044	induce model	der vars algn density: 657.959	impl bi-valency percent: 34.3548	der vars cardinality: 3	fud cardinality: 22
-model044	induce model	time 0.249232s
-model044	induce update	slice: 131602	parent slice: 131494	children cardinality: 5	children slices: [132194,132195,132196,132197,132198]	fud size: 27	fud cardinality: 154	model cardinality: 2954	time 0.0025429s
-model044	induce copy	slice: 131391	slice size: 1113	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67363	time 0.0002738s
-model044	induce model	repa dimension: 57	sparse dimension: 0
-model044	induce model	dimension: 57	size: 1113
-model044	induce model	der vars algn density: 713.359	impl bi-valency percent: 37.7771	der vars cardinality: 3	fud cardinality: 26
-model044	induce model	time 0.195554s
-model044	induce update	slice: 131391	parent slice: 131174	children cardinality: 6	children slices: [132199,132200,132201,132202,132203,132204]	fud size: 32	fud cardinality: 155	model cardinality: 2986	time 0.0032883s
-model044	induce copy	slice: 131570	slice size: 1110	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67389	time 0.0003402s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1110
-model044	induce model	der vars algn density: 696.702	impl bi-valency percent: 36.8657	der vars cardinality: 3	fud cardinality: 9
-model044	induce model	time 0.0536739s
-model044	induce update	slice: 131570	parent slice: 131263	children cardinality: 8	children slices: [132205,132206,132207,132208,132209,132210,132211,132212]	fud size: 17	fud cardinality: 156	model cardinality: 3003	time 0.0015461s
-model044	induce copy	slice: 131737	slice size: 1107	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67398	time 0.0002554s
-model044	induce model	repa dimension: 49	sparse dimension: 0
-model044	induce model	dimension: 49	size: 1107
-model044	induce model	der vars algn density: 653.36	impl bi-valency percent: 34.3266	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0290256s
-model044	induce update	slice: 131737	parent slice: 131387	children cardinality: 6	children slices: [132213,132214,132215,132216,132217,132218]	fud size: 9	fud cardinality: 157	model cardinality: 3012	time 0.0009833s
-model044	induce copy	slice: 131499	slice size: 1103	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67401	time 0.0002545s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1103
-model044	induce model	der vars algn density: 368.529	impl bi-valency percent: 39.6704	der vars cardinality: 2	fud cardinality: 18
-model044	induce model	time 0.125484s
-model044	induce update	slice: 131499	parent slice: 131290	children cardinality: 7	children slices: [132219,132220,132221,132222,132223,132224,132225]	fud size: 25	fud cardinality: 158	model cardinality: 3037	time 0.0034729s
-model044	induce copy	slice: 131203	slice size: 1093	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67419	time 0.0002728s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 1093
-model044	induce model	der vars algn density: 380.996	impl bi-valency percent: 41.7051	der vars cardinality: 2	fud cardinality: 31
-model044	induce model	time 0.17317s
-model044	induce update	slice: 131203	parent slice: 131113	children cardinality: 4	children slices: [132226,132227,132228,132229]	fud size: 35	fud cardinality: 159	model cardinality: 3072	time 0.0030008s
-model044	induce copy	slice: 131864	slice size: 1084	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67450	time 0.000352s
-model044	induce model	repa dimension: 49	sparse dimension: 0
-model044	induce model	dimension: 49	size: 1084
-model044	induce model	der vars algn density: 450.321	impl bi-valency percent: 23.086	der vars cardinality: 3	fud cardinality: 15
-model044	induce model	time 0.181297s
-model044	induce update	slice: 131864	parent slice: 131535	children cardinality: 4	children slices: [132230,132231,132232,132233]	fud size: 19	fud cardinality: 160	model cardinality: 3091	time 0.0019793s
-model044	induce copy	slice: 131832	slice size: 1072	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67465	time 0.0002541s
-model044	induce model	repa dimension: 59	sparse dimension: 0
-model044	induce model	dimension: 59	size: 1072
-model044	induce model	der vars algn density: 354.048	impl bi-valency percent: 17.9551	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.031507s
-model044	induce update	slice: 131832	parent slice: 131456	children cardinality: 8	children slices: [132234,132235,132236,132237,132238,132239,132240,132241]	fud size: 11	fud cardinality: 161	model cardinality: 3102	time 0.0009443s
-model044	induce copy	slice: 131525	slice size: 1067	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67468	time 0.0002173s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1067
-model044	induce model	der vars algn density: 400.452	impl bi-valency percent: 20.6415	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0238565s
-model044	induce update	slice: 131525	parent slice: 131253	children cardinality: 8	children slices: [132242,132243,132244,132245,132246,132247,132248,132249]	fud size: 11	fud cardinality: 162	model cardinality: 3113	time 0.0009653s
-model044	induce copy	slice: 131164	slice size: 1063	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67471	time 0.0002537s
-model044	induce model	repa dimension: 56	sparse dimension: 0
-model044	induce model	dimension: 56	size: 1063
-model044	induce model	der vars algn density: 695.077	impl bi-valency percent: 38.672	der vars cardinality: 3	fud cardinality: 36
-model044	induce model	time 0.415934s
-model044	induce update	slice: 131164	parent slice: 131119	children cardinality: 3	children slices: [132250,132251,132252]	fud size: 39	fud cardinality: 163	model cardinality: 3152	time 0.0028201s
-model044	induce copy	slice: 131691	slice size: 1062	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67507	time 0.0002434s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1062
-model044	induce model	der vars algn density: 586.55	impl bi-valency percent: 31.805	der vars cardinality: 3	fud cardinality: 8
-model044	induce model	time 0.117326s
-model044	induce update	slice: 131691	parent slice: 131370	children cardinality: 8	children slices: [132253,132254,132255,132256,132257,132258,132259,132260]	fud size: 16	fud cardinality: 164	model cardinality: 3168	time 0.0019229s
-model044	induce copy	slice: 131745	slice size: 1061	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67515	time 0.0003081s
-model044	induce model	repa dimension: 53	sparse dimension: 0
-model044	induce model	dimension: 53	size: 1061
-model044	induce model	der vars algn density: 502.317	impl bi-valency percent: 26.7085	der vars cardinality: 3	fud cardinality: 7
-model044	induce model	time 0.065034s
-model044	induce update	slice: 131745	parent slice: 131417	children cardinality: 8	children slices: [132261,132262,132263,132264,132265,132266,132267,132268]	fud size: 15	fud cardinality: 165	model cardinality: 3183	time 0.0014748s
-model044	induce copy	slice: 131667	slice size: 1053	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67522	time 0.0002333s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1053
-model044	induce model	der vars algn density: 531.865	impl bi-valency percent: 28.7301	der vars cardinality: 3	fud cardinality: 6
-model044	induce model	time 0.0536839s
-model044	induce update	slice: 131667	parent slice: 131280	children cardinality: 7	children slices: [132269,132270,132271,132272,132273,132274,132275]	fud size: 13	fud cardinality: 166	model cardinality: 3196	time 0.0012706s
-model044	induce copy	slice: 131087	slice size: 1050	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67528	time 0.0002746s
-model044	induce model	repa dimension: 60	sparse dimension: 0
-model044	induce model	dimension: 60	size: 1050
-model044	induce model	der vars algn density: 368.146	impl bi-valency percent: 41.9941	der vars cardinality: 2	fud cardinality: 37
-model044	induce model	time 0.203439s
-model044	induce update	slice: 131087	parent slice: 131072	children cardinality: 5	children slices: [132276,132277,132278,132279,132280]	fud size: 42	fud cardinality: 167	model cardinality: 3238	time 0.0033355s
-model044	induce copy	slice: 131612	slice size: 1039	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67565	time 0.000266s
-model044	induce model	repa dimension: 43	sparse dimension: 0
-model044	induce model	dimension: 43	size: 1039
-model044	induce model	der vars algn density: 206.711	impl bi-valency percent: 10.4592	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0359325s
-model044	induce update	slice: 131612	parent slice: 131411	children cardinality: 8	children slices: [132281,132282,132283,132284,132285,132286,132287,132288]	fud size: 11	fud cardinality: 168	model cardinality: 3249	time 0.0011254s
-model044	induce copy	slice: 131672	slice size: 1029	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67568	time 0.000221s
-model044	induce model	repa dimension: 55	sparse dimension: 0
-model044	induce model	dimension: 55	size: 1029
-model044	induce model	der vars algn density: 338.732	impl bi-valency percent: 38.9836	der vars cardinality: 2	fud cardinality: 20
-model044	induce model	time 0.146075s
-model044	induce update	slice: 131672	parent slice: 131412	children cardinality: 7	children slices: [132289,132290,132291,132292,132293,132294,132295]	fud size: 27	fud cardinality: 169	model cardinality: 3276	time 0.0025448s
-model044	induce copy	slice: 131509	slice size: 1024	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67588	time 0.0002428s
-model044	induce model	repa dimension: 58	sparse dimension: 0
-model044	induce model	dimension: 58	size: 1024
-model044	induce model	der vars algn density: 482.854	impl bi-valency percent: 26.5882	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0285023s
-model044	induce update	slice: 131509	parent slice: 131284	children cardinality: 7	children slices: [132296,132297,132298,132299,132300,132301,132302]	fud size: 10	fud cardinality: 170	model cardinality: 3286	time 0.0009592s
-model044	induce copy	slice: 131479	slice size: 1022	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67591	time 0.0002364s
-model044	induce model	repa dimension: 57	sparse dimension: 0
-model044	induce model	dimension: 57	size: 1022
-model044	induce model	der vars algn density: 596.175	impl bi-valency percent: 33.8662	der vars cardinality: 3	fud cardinality: 3
-model044	induce model	time 0.0326463s
-model044	induce update	slice: 131479	parent slice: 131172	children cardinality: 7	children slices: [132303,132304,132305,132306,132307,132308,132309]	fud size: 10	fud cardinality: 171	model cardinality: 3296	time 0.000993s
-model044	induce copy	slice: 131801	slice size: 1014	repa dimension: 60	sparse capacity: 0	sparse paths: 0	variable: 67594	time 0.0002462s
-model044	induce model	repa dimension: 53	sparse dimension: 0
-model044	induce model	dimension: 53	size: 1014
-model044	induce model	der vars algn density: 445.003	impl bi-valency percent: 24.5366	der vars cardinality: 3	fud cardinality: 7
-model044	induce model	time 0.0951097s
-model044	induce update	slice: 131801	parent slice: 131432	children cardinality: 8	children slices: [132310,132311,132312,132313,132314,132315,132316,132317]	fud size: 15	fud cardinality: 172	model cardinality: 3311	time 0.0014233s
+model044	induce model	time 0.0054094s
+model044	induce update fail	slice: 131357	slice size: 7000	time 2.1e-06s
 
 model+".dr": model044.dr
-	Command being timed: "./main induce04 model044 data009 1000"
-	User time (seconds): 100.06
-	System time (seconds): 1.42
-	Percent of CPU this job got: 192%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:52.84
+	Command being timed: "./main induce04 model044 data009 7000"
+	User time (seconds): 94.16
+	System time (seconds): 0.81
+	Percent of CPU this job got: 260%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.47
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 765512
+	Maximum resident set size (kbytes): 765676
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 2
-	Minor (reclaiming a frame) page faults: 21866
-	Voluntary context switches: 10224
-	Involuntary context switches: 386
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22572
+	Voluntary context switches: 1943
+	Involuntary context switches: 205
 	Swaps: 0
-	File system inputs: 999464
-	File system outputs: 792
+	File system inputs: 0
+	File system outputs: 200
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
