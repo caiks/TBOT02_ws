@@ -1,0 +1,174 @@
+model: model050
+dataset: data009
+induceThreshold: 7000
+hr->size: 172301
+ur->listVarSizePair.size(): 366
+model050	induce copy	slice: 0	slice size: 172301	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65536	time 0.625517s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 172301
+model050	induce model	der vars algn density: 72099.9	impl bi-valency percent: 23.2724	der vars cardinality: 3	fud cardinality: 3
+model050	induce model	time 9.72608s
+model050	induce update	slice: 0	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 1	model cardinality: 11	time 0.0588477s
+model050	induce copy	slice: 131079	slice size: 70580	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65539	time 0.206116s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 70580
+model050	induce model	der vars algn density: 24159.4	impl bi-valency percent: 40.818	der vars cardinality: 2	fud cardinality: 2
+model050	induce model	time 4.57601s
+model050	induce update	slice: 131079	parent slice: 0	children cardinality: 9	fud size: 11	fud cardinality: 2	model cardinality: 22	time 0.0443836s
+model050	induce copy	slice: 131072	slice size: 65338	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65541	time 0.13852s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 65338
+model050	induce model	der vars algn density: 22857.3	impl bi-valency percent: 41.8829	der vars cardinality: 2	fud cardinality: 2
+model050	induce model	time 4.32812s
+model050	induce update	slice: 131072	parent slice: 0	children cardinality: 9	fud size: 11	fud cardinality: 3	model cardinality: 33	time 0.0358632s
+model050	induce copy	slice: 131080	slice size: 28998	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65543	time 0.0372948s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 28998
+model050	induce model	der vars algn density: 9703.53	impl bi-valency percent: 39.742	der vars cardinality: 2	fud cardinality: 3
+model050	induce model	time 3.89833s
+model050	induce update	slice: 131080	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 4	model cardinality: 44	time 0.0202022s
+model050	induce copy	slice: 131084	slice size: 24016	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65546	time 0.0324072s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 24016
+model050	induce model	der vars algn density: 7791.45	impl bi-valency percent: 38.3239	der vars cardinality: 2	fud cardinality: 6
+model050	induce model	time 1.96912s
+model050	induce update	slice: 131084	parent slice: 0	children cardinality: 9	fud size: 15	fud cardinality: 5	model cardinality: 59	time 0.0154528s
+model050	induce copy	slice: 131093	slice size: 23518	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65552	time 0.0327175s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 23518
+model050	induce model	der vars algn density: 14535.9	impl bi-valency percent: 36.2114	der vars cardinality: 3	fud cardinality: 3
+model050	induce model	time 1.66419s
+model050	induce update	slice: 131093	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 6	model cardinality: 70	time 0.0140171s
+model050	induce copy	slice: 131089	slice size: 21050	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65555	time 0.0262052s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 21050
+model050	induce model	der vars algn density: 6541.87	impl bi-valency percent: 36.4486	der vars cardinality: 2	fud cardinality: 3
+model050	induce model	time 1.69082s
+model050	induce update	slice: 131089	parent slice: 0	children cardinality: 7	fud size: 10	fud cardinality: 7	model cardinality: 80	time 0.0132419s
+model050	induce copy	slice: 131097	slice size: 20281	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65558	time 0.0240477s
+model050	induce model	repa dimension: 358	sparse dimension: 0
+model050	induce model	dimension: 358	size: 20281
+model050	induce model	der vars algn density: 6590.45	impl bi-valency percent: 38.3971	der vars cardinality: 2	fud cardinality: 3
+model050	induce model	time 1.68676s
+model050	induce update	slice: 131097	parent slice: 0	children cardinality: 7	fud size: 10	fud cardinality: 8	model cardinality: 90	time 0.0123025s
+model050	induce copy	slice: 131075	slice size: 18818	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65561	time 0.0253825s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 18818
+model050	induce model	der vars algn density: 12086.8	impl bi-valency percent: 37.8711	der vars cardinality: 3	fud cardinality: 3
+model050	induce model	time 1.51393s
+model050	induce update	slice: 131075	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 9	model cardinality: 101	time 0.0114101s
+model050	induce copy	slice: 131088	slice size: 16999	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65564	time 0.0251458s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 16999
+model050	induce model	der vars algn density: 10971.7	impl bi-valency percent: 38.0873	der vars cardinality: 3	fud cardinality: 3
+model050	induce model	time 1.17942s
+model050	induce update	slice: 131088	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 10	model cardinality: 112	time 0.0107615s
+model050	induce copy	slice: 131076	slice size: 16430	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65567	time 0.0208939s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 16430
+model050	induce model	der vars algn density: 5579.98	impl bi-valency percent: 40.4416	der vars cardinality: 2	fud cardinality: 2
+model050	induce model	time 1.16023s
+model050	induce update	slice: 131076	parent slice: 0	children cardinality: 9	fud size: 11	fud cardinality: 11	model cardinality: 123	time 0.0101035s
+model050	induce copy	slice: 131122	slice size: 11698	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65569	time 0.0153477s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 11698
+model050	induce model	der vars algn density: 3672.81	impl bi-valency percent: 36.8848	der vars cardinality: 2	fud cardinality: 3
+model050	induce model	time 1.09123s
+model050	induce update	slice: 131122	parent slice: 0	children cardinality: 9	fud size: 12	fud cardinality: 12	model cardinality: 135	time 0.0078396s
+model050	induce copy	slice: 131115	slice size: 11163	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65572	time 0.0152471s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 11163
+model050	induce model	der vars algn density: 4038.12	impl bi-valency percent: 43.5827	der vars cardinality: 2	fud cardinality: 28
+model050	induce model	time 2.69248s
+model050	induce update	slice: 131115	parent slice: 0	children cardinality: 5	fud size: 33	fud cardinality: 13	model cardinality: 168	time 0.0111677s
+model050	induce copy	slice: 131137	slice size: 10717	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65600	time 0.0153021s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 10717
+model050	induce model	der vars algn density: 3508.82	impl bi-valency percent: 38.7366	der vars cardinality: 2	fud cardinality: 2
+model050	induce model	time 0.798576s
+model050	induce update	slice: 131137	parent slice: 0	children cardinality: 9	fud size: 11	fud cardinality: 14	model cardinality: 179	time 0.0074274s
+model050	induce copy	slice: 131104	slice size: 10054	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65602	time 0.0103567s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 10054
+model050	induce model	der vars algn density: 3605.8	impl bi-valency percent: 43.1386	der vars cardinality: 2	fud cardinality: 25
+model050	induce model	time 2.28373s
+model050	induce update	slice: 131104	parent slice: 0	children cardinality: 5	fud size: 30	fud cardinality: 15	model cardinality: 209	time 0.0087387s
+model050	induce copy	slice: 131145	slice size: 9471	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65627	time 0.0125627s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 9471
+model050	induce model	der vars algn density: 3062.85	impl bi-valency percent: 38.1807	der vars cardinality: 2	fud cardinality: 6
+model050	induce model	time 1.02519s
+model050	induce update	slice: 131145	parent slice: 0	children cardinality: 8	fud size: 14	fud cardinality: 16	model cardinality: 223	time 0.006971s
+model050	induce copy	slice: 131101	slice size: 9454	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65633	time 0.0125607s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 9454
+model050	induce model	der vars algn density: 3019.35	impl bi-valency percent: 37.6265	der vars cardinality: 2	fud cardinality: 12
+model050	induce model	time 1.34477s
+model050	induce update	slice: 131101	parent slice: 0	children cardinality: 8	fud size: 20	fud cardinality: 17	model cardinality: 243	time 0.0070182s
+model050	induce copy	slice: 131098	slice size: 8903	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65645	time 0.013066s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 8903
+model050	induce model	der vars algn density: 2937.44	impl bi-valency percent: 39.0883	der vars cardinality: 2	fud cardinality: 2
+model050	induce model	time 0.70383s
+model050	induce update	slice: 131098	parent slice: 0	children cardinality: 9	fud size: 11	fud cardinality: 18	model cardinality: 254	time 0.0066688s
+model050	induce copy	slice: 131135	slice size: 8821	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65647	time 0.0117245s
+model050	induce model	repa dimension: 358	sparse dimension: 0
+model050	induce model	dimension: 358	size: 8821
+model050	induce model	der vars algn density: 2899.43	impl bi-valency percent: 38.9156	der vars cardinality: 2	fud cardinality: 4
+model050	induce model	time 1.01636s
+model050	induce update	slice: 131135	parent slice: 0	children cardinality: 8	fud size: 12	fud cardinality: 19	model cardinality: 266	time 0.0060166s
+model050	induce copy	slice: 131110	slice size: 8717	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65651	time 0.0125314s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 8717
+model050	induce model	der vars algn density: 2737.94	impl bi-valency percent: 36.9016	der vars cardinality: 2	fud cardinality: 6
+model050	induce model	time 0.783169s
+model050	induce update	slice: 131110	parent slice: 0	children cardinality: 9	fud size: 15	fud cardinality: 20	model cardinality: 281	time 0.0066313s
+model050	induce copy	slice: 131123	slice size: 8537	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65657	time 0.01182s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 8537
+model050	induce model	der vars algn density: 2788.16	impl bi-valency percent: 38.6243	der vars cardinality: 2	fud cardinality: 3
+model050	induce model	time 0.770548s
+model050	induce update	slice: 131123	parent slice: 0	children cardinality: 9	fud size: 12	fud cardinality: 21	model cardinality: 293	time 0.0063015s
+model050	induce copy	slice: 131106	slice size: 8528	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65660	time 0.0122636s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 8528
+model050	induce model	der vars algn density: 5272.12	impl bi-valency percent: 36.2207	der vars cardinality: 3	fud cardinality: 3
+model050	induce model	time 0.648647s
+model050	induce update	slice: 131106	parent slice: 0	children cardinality: 8	fud size: 11	fud cardinality: 22	model cardinality: 304	time 0.0059626s
+model050	induce copy	slice: 131144	slice size: 7862	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65663	time 0.0111478s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 7862
+model050	induce model	der vars algn density: 2571.79	impl bi-valency percent: 38.6963	der vars cardinality: 2	fud cardinality: 4
+model050	induce model	time 0.880744s
+model050	induce update	slice: 131144	parent slice: 0	children cardinality: 9	fud size: 13	fud cardinality: 23	model cardinality: 317	time 0.0057784s
+model050	induce copy	slice: 131152	slice size: 7308	repa dimension: 360	sparse capacity: 0	sparse paths: 0	variable: 65667	time 0.0080843s
+model050	induce model	repa dimension: 360	sparse dimension: 0
+model050	induce model	dimension: 360	size: 7308
+model050	induce model	der vars algn density: 2461.55	impl bi-valency percent: 40.05	der vars cardinality: 2	fud cardinality: 27
+model050	induce model	time 1.76964s
+model050	induce update	slice: 131152	parent slice: 0	children cardinality: 8	fud size: 35	fud cardinality: 24	model cardinality: 352	time 0.0075353s
+
+model+".dr": model050.dr
+	Command being timed: "./main induce06 model050 data009 7000"
+	User time (seconds): 171.26
+	System time (seconds): 0.78
+	Percent of CPU this job got: 319%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:53.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 764460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 41788
+	Voluntary context switches: 2137
+	Involuntary context switches: 385
+	Swaps: 0
+	File system inputs: 999408
+	File system outputs: 120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
