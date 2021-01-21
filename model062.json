@@ -1,6 +1,4 @@
 {
-	"bias_interval" : 5000,
-	"room_initial" : "room4",
 	"structure" : "struct001",
 	"model_initial" : "model061",
 	"model" : "model062",
