@@ -1,5 +1,8 @@
 {
-	"room_initial" : "room5",
+	"room_initial" : "room4",
 	"structure" : "struct001",
-	"model" : "model061"
+	"model" : "model061",
+	"bias_interval" : 5000,
+	"turn_interval" : 5000,
+	"logging_level2" : true
 }
