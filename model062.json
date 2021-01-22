@@ -1,4 +1,5 @@
 {
+	"bias_interval" : 2500,
 	"structure" : "struct001",
 	"model_initial" : "model061",
 	"model" : "model062",
