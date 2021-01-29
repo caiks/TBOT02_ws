@@ -1,8 +1,11 @@
 {
-	"bias_interval" : 2500,
+	"update_interval" : 5,
+	"act_interval" : 60,
+	"bias_interval" : 1250,
 	"structure" : "struct001",
 	"model_initial" : "model061",
 	"model" : "model062",
 	"mode" : "mode001",
-	"logging_level2" : true
+	"summary_level1" : true,
+	"summary_level2" : true
 }

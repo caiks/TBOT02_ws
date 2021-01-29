@@ -1,0 +1,11 @@
+{
+	"update_interval" : 5,
+	"act_interval" : 60,
+	"bias_interval" : 1250,
+	"turn_interval" : 1250,
+	"structure" : "struct001",
+	"activeSizeLevel1" : 100000,
+	"model" : "model065",
+	"summary_level1" : true,
+	"summary_level2" : true
+}
