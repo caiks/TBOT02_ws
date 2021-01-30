@@ -1,0 +1,12 @@
+{
+	"update_interval" : 5,
+	"act_interval" : 60,
+	"bias_interval" : 1250,
+	"structure" : "struct001",
+	"model_initial" : "model065",
+	"model" : "model067",
+	"mode" : "mode001",
+	"probabilistic_pv" : true,
+	"summary_level1" : true,
+	"summary_level2" : true
+}
