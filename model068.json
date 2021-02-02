@@ -1,7 +1,7 @@
 {
-	"update_interval" : 5,
-	"act_interval" : 60,
-	"bias_interval" : 1250,
+	"update_interval" : 10,
+	"act_interval" : 125,
+	"bias_interval" : 2500,
 	"structure" : "struct001",
 	"model_initial" : "model065",
 	"model" : "model068",
