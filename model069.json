@@ -1,0 +1,12 @@
+{
+	"update_interval" : 20,
+	"act_interval" : 500,
+	"bias_interval" : 10000,
+	"structure" : "struct002",
+	"model_initial" : "model061",
+	"structure_initial" : "struct001",
+	"model" : "model069",
+	"summary_level1" : true,
+	"summary_level2" : true,
+	"summary_level3" : true
+}
