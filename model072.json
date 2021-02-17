@@ -1,0 +1,14 @@
+{
+	"update_interval" : 5,
+	"act_interval" : 60,
+	"bias_interval" : 1250,
+	"induceIntervalLevel1" : 250,
+	"induce_interval" : 250,
+	"structure" : "struct001",
+	"model_initial" : "model071",
+	"model" : "model072",
+	"summary_level1" : true,
+	"summary_level2" : true,
+	"summary_level3" : true,
+	"warning_action" : true
+}
