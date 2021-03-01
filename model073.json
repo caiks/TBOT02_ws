@@ -1,0 +1,16 @@
+{
+	"update_interval" : 5,
+	"act_interval" : 62,
+	"bias_interval" : 620,
+	"turn_interval" : 620,
+	"activeSizeLevel1" : 30000,
+	"induceIntervalLevel1" : 250,
+	"induceThresholdInitial" : 3000,
+	"induceThreshold" : 300,
+	"induce_interval" : 250,
+	"structure" : "struct001",
+	"model" : "model073",
+	"summary_level1" : true,
+	"summary_level2" : true,
+	"warning_action" : true
+}
